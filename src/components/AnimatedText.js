@@ -53,8 +53,8 @@ export default function AnimatedText({ text, className = "" }) {
                 transition: { duration: 1, repeat: Infinity },
               }}
               >
-                {word.split("").map((letter) => (
-                  <motion.span key={index} className="inline-block" variants={singleWord} 
+                {word.split("").map((letter, indexletter) => (
+                  <motion.span key={indexletter} className="inline-block" variants={singleWord} 
                   >
                     {letter}
                   </motion.span>

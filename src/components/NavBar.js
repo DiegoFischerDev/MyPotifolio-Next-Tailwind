@@ -22,6 +22,7 @@ export default function NavBar() {
       <CustomLink href="/" title="Home" />
       <CustomLink href="/about" title="About" />
       <CustomLink href="/projects" title="Projects" />
+      <CustomLink href="/contact" title="Contact" />
     </nav>
     <Logo />
     <nav className='flex items-center flex-wrap'>
