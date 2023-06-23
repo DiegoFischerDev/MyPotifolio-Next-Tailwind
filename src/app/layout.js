@@ -1,4 +1,5 @@
 import NavBar from '@/components/NavBar'
+import MyFooter from '@/components/MyFooter'
 import './globals.css'
 import { Montserrat } from "next/font/google"
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={`${montserrat.variable} font-mont bg-light w-full min-h-screen`}>
         <NavBar />
         {children}
+        <MyFooter />
       </body>
     </html>
   )
