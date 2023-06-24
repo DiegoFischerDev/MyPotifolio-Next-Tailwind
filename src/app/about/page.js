@@ -14,7 +14,7 @@ export default function about() {
             After many years working as a marine engineer in the oil exploration industry, I decided to try and navigate the seas of technology where I found a new career path that matches my life aspirations.
           </p>
           <p className='font-medium my-4'>
-            I am now working as a Junior Front-End Engineer at Arsenal where I have the opportunity to deepen my knowledge in technologies such as React.js, Javascript, CSS, Tailwind and others. I also worked on an e-commerce application made from scratch in 2022. In this project I used react native and Firebase to develop a native mobile application that sold beach clothes and accessories.
+            I am now working as a Junior Front-End Engineer at Arsenal where I have the opportunity to deepen my knowledge in technologies such as React.js, Javascript, CSS, Tailwind and others.
           </p>
           <p className='font-medium'>
             I am a self-taught person, learning how to code better everyday and always open to opportunities to grow as a professional and as a person.

@@ -3,7 +3,7 @@ import ProfileImage from "../../public/images/profileImg.jpg"
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
-import lightBulb from "../../public/images/bulb.svg"
+import LightBulb from "@/components/LightBulb";
 
 export default function Home() {
   return (
@@ -12,7 +12,7 @@ export default function Home() {
 
         <div className="w-1/2 ml-auto group">
           <Image src={ProfileImage} alt="Diego Fischer Dev Avatar"/>
-          <Image src={lightBulb} alt="Bulb" className="h-auto grayscale group-hover:grayscale-0 absolute right-36 bottom-14 w-1/12 -z-10" />
+          <LightBulb />
         </div>
 
         <div className="w-1/2 flex flex-col items-center text-left">

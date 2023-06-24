@@ -1,6 +1,6 @@
 'use client'
 
-import { color, motion } from "framer-motion"
+import { motion } from "framer-motion"
 
 export default function AnimatedText({ text, className }) {
 
@@ -54,7 +54,9 @@ export default function AnimatedText({ text, className }) {
               }}
               >
                 {word.split("").map((letter, indexletter) => (
-                  <motion.span key={indexletter} className="inline-block" variants={singleWord} 
+                  <motion.span key={indexletter}
+                  className="inline-block"
+                  variants={singleWord} 
                   >
                     {letter}
                   </motion.span>
