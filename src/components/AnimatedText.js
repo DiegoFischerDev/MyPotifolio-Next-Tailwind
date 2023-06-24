@@ -1,8 +1,8 @@
 'use client'
 
-import { color, motion } from "framer-motion"
+import { motion } from "framer-motion"
 
-export default function AnimatedText({ text, className = "" }) {
+export default function AnimatedText({ text, className }) {
 
   const quote = {
     initial: {
@@ -35,9 +35,9 @@ export default function AnimatedText({ text, className = "" }) {
 
 
   return (
-    <div className="w-full mx-auto py-2 overflow-hidden">
+    <div className="´mx-auto py-2 overflow-hidden ${className}´">
       <motion.h1
-        className={`w-full flex flex-wrap text-dark font-bold capitalize text-6xl ${className}`}
+        className={`flex flex-wrap text-dark font-bold capitalize text-6xl ${className}`}
         variants={quote}
         initial="initial"
         animate="animate"
@@ -54,7 +54,9 @@ export default function AnimatedText({ text, className = "" }) {
               }}
               >
                 {word.split("").map((letter, indexletter) => (
-                  <motion.span key={indexletter} className="inline-block" variants={singleWord} 
+                  <motion.span key={indexletter}
+                  className="inline-block"
+                  variants={singleWord} 
                   >
                     {letter}
                   </motion.span>
