@@ -2,6 +2,8 @@ import AnimatedText from '@/components/AnimatedText';
 import Image from 'next/image';
 import React from 'react';
 import profileImg from "../../../public/images/profile-picture.png"
+import Skills from '@/components/Skill';
+import Skill from '@/components/Skill';
 
 export default function about() {
   return (
@@ -28,6 +30,26 @@ export default function about() {
           </div>
         </div>
 
+      </div>
+      <div className="w-full">
+        <h2 className="font-bold text-6xl mt-28 w-full text-center">Skills</h2>
+        <div className="w-full h-screen relative flex items-center rounded-full justify-center bg-circularLight">
+
+          <Skill name="Web" x="0" y="0" className="roundend-full w-25 h-20" />
+          <Skill name="CSS" x="-5vw" y="-10vw" />
+          <Skill name="HTML" x="10vw" y="-2vw" />
+          <Skill name="JavaScript" x="20vw" y="6vw" />
+          <Skill name="React Js" x="0vw" y="12vw" />
+          <Skill name="Next Js" x="-20vw" y="-15vw" />
+          <Skill name="Tailwind CSS" x="15vw" y="-10vw" />
+          <Skill name="TypeScript" x="32vw" y="-5vw" />
+          <Skill name="Firebase" x="8vw" y="-20vw" />
+          <Skill name="Figma" x="-25vw" y="10vw" />
+          <Skill name="Web Design" x="18vw" y="18vw" />
+          <Skill name="Git" x="-15vw" y="0vw" />
+          <Skill name="SASS" x="-30vw" y="-5vw" />
+
+        </div>
       </div>
     </main>
   );
