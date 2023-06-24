@@ -1,4 +1,3 @@
-import Link from "next/link";
 import HireMe from "./HireMe";
 
 export default function MyFooter() {
