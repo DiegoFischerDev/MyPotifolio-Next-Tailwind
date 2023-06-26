@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import emailjs from '@emailjs/browser'  // https://www.emailjs.com/
 
 export default function ContactForm() {
@@ -8,14 +8,25 @@ export default function ContactForm() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
+  const [emailValidation, setEmailValidation] = useState('')
+
+  const emailRef = useRef(null);
+
+  function handleEmailInputChange(e){
+
+    setEmail(e.target.value);
+    setEmailValidation(/\S+@\S+\.\S+/.test(email));
+
+    if (emailValidation) {
+      emailRef.current.setCustomValidity('');
+    } else {
+      emailRef.current.setCustomValidity('Invalid email address, please check this out.');
+    }
+  }
 
   function sendEmail(e) {
-    e.preventDefault();
 
-    if(name === '' || email === '' || message === ''){
-      alert('preencha tudo');
-      return;
-    }
+    e.preventDefault();
 
     const templateParams = {
       from_name: name,
@@ -29,6 +40,7 @@ export default function ContactForm() {
       setName('');
       setEmail('');
       setMessage('');
+      alert("email enviado!")
 
     }, (error) => {
       console.log(error);
@@ -43,16 +55,19 @@ export default function ContactForm() {
         <input 
           className="my-2 h-10 px-2 rounded"
           type="text"
-          placeholder="Please enter your name"
+          placeholder="Enter your name"
           onChange={(e) => setName(e.target.value)}
+          required
           value={name}
         />
         
         <input 
           className="my-2 h-10 px-2 rounded"
           type="text"
-          placeholder="Please enter your email"
-          onChange={(e) => setEmail(e.target.value)}
+          placeholder="Enter your email"
+          onChange={(e) => {handleEmailInputChange(e)}}
+          ref={emailRef}
+          required
           value={email}
         />
 
@@ -60,6 +75,7 @@ export default function ContactForm() {
           className="my-2 h-36 px-2 py-4 rounded"
           placeholder="Enter your message..."
           onChange={(e) => setMessage(e.target.value)}
+          required
           value={message}
         />
 
