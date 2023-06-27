@@ -4,6 +4,7 @@ module.exports = {
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -20,6 +21,7 @@ module.exports = {
       },
       backgroundImage: {
         circularLight: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #efefef 5px, #efefef 100px);',
+        circularDark: 'repeating-radial-gradient(#efefef 1px, #1b1b1b 5px, #1b1b1b 100px);',
       }
     },
   },

@@ -16,7 +16,7 @@ export default function ExperienceLine() {
   <div ref={ExperienceLineRef}>
     <motion.div
     style={{scaleY: scrollYProgress}}
-    className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top'
+    className='absolute left-9 top-0 w-[4px] h-full bg-dark dark:bg-light origin-top'
     />
   </div>
  );

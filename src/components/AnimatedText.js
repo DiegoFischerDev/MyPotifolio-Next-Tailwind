@@ -1,8 +1,12 @@
 'use client'
 
 import { motion } from "framer-motion"
+import { useContext } from "react"
+import { DarkThemeContext } from "@/context/DarkThemeContext"
 
 export default function AnimatedText({ text, className }) {
+
+  const {theme} = useContext(DarkThemeContext)
 
   const quote = {
     initial: {
@@ -14,7 +18,7 @@ export default function AnimatedText({ text, className }) {
       transition: {
         delay: 0.5,
         staggerChildren: 0.03,
-      }
+      },
     }
   }
 
@@ -29,15 +33,15 @@ export default function AnimatedText({ text, className }) {
       y: 0,
       transition: {
         duration: 0.6,
-      }
+      },
     }
   }
 
 
   return (
-    <div className="´mx-auto py-2 overflow-hidden ${className}´">
+    <div className="´mx-auto py-2 overflow-hidden dark:text-light ${className}´">
       <motion.h1
-        className={`flex flex-wrap text-dark font-bold capitalize text-6xl ${className}`}
+        className={`flex flex-wrap font-bold capitalize text-6xl ${className}`}
         variants={quote}
         initial="initial"
         animate="animate"
@@ -48,9 +52,9 @@ export default function AnimatedText({ text, className }) {
               <motion.div
               key={index}
               className="flex"
-              whileHover={{
-                color: ["#121212", "rgba(131,58,180,1)", "rgba(253,29,29,1)", "rgba(252,176,69,1)", "rgba(131,58,180,1)", "#121212"],
-                transition: { duration: 1, repeat: Infinity },
+              animate={{
+                color: ["rgba(131,58,180,1)", "rgba(253,29,29,1)", "rgba(252,176,69,1)", "rgba(131,58,180,1)", theme === "dark" ? "#efefef" : "#121212"],
+                transition: { duration: 2},
               }}
               >
                 {word.split("").map((letter, indexletter) => (

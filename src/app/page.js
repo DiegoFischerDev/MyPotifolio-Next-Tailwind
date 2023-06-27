@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ProfileImage from "../../public/images/profileImg.jpg"
+import bgSectionHome from "../../public/images/bgSectionHome.png"
 import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
@@ -11,7 +11,7 @@ export default function Home() {
       <div className="flex w-full items-center justify-between">
 
         <div className="w-1/2 ml-auto group">
-          <Image src={ProfileImage} alt="Diego Fischer Dev Avatar"/>
+          <Image src={bgSectionHome} alt="Diego Fischer Dev Avatar"/>
           <LightBulb />
         </div>
 
@@ -23,7 +23,7 @@ export default function Home() {
           </p>
           <div className="self-start mt-2">
             <Link href="/Resume - Diego Fischer.pdf" target={"_blank"} download={true}
-            className="flex mb-4 items-center bg-dark text-light p-2.5 px-6 rounded-lg font-semibold border-2 border-solid border-transparent hover:bg-light hover:text-dark hover:border-dark">Resume <LinkArrow /></Link>
+            className="flex mb-4 items-center bg-dark text-light p-2.5 px-6 rounded-lg font-semibold border-2 border-solid border-transparent hover:bg-light hover:text-dark hover:border-dark dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light">Resume <LinkArrow /></Link>
           </div>
         </div>
 
