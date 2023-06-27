@@ -80,7 +80,7 @@ export default function ContactForm() {
         />
 
         <input
-        className="mt-8 border-2 bg-primary text-white p-2 rounded text-2xl cursor-pointer font-semibold hover:bg-light border-white"
+        className="mt-8 border-2 bg-primary dark:bg-primaryDark text-white p-2 rounded text-2xl cursor-pointer font-semibold hover:bg-light dark:hover:bg-light border-white"
         type="submit"
         value="Send to Diego" />
       </form>

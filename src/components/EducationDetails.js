@@ -18,8 +18,8 @@ export default function EducationDetails ({course, place, time, info}) {
         viewport={{once: true}}
       >
         <h3 className='capitalize font-bold text-2xl '>{course}</h3>
-        <h2 className='text-primary text-lg'>@{place}</h2>
-        <span className='capitalize font-medium text-dark/75'>
+        <h2 className='text-primary dark:text-primaryDark text-lg'>@{place}</h2>
+        <span className='capitalize font-medium text-dark/75 dark:text-light/75'>
           {time} | {info}
         </span>
       </motion.div>
