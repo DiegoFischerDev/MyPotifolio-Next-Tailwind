@@ -6,14 +6,20 @@ import { GithubIcon } from "./Icons";
 export const ProjectCard = ({ type, title, summary, img, link, github }) => {
 
   return (
-    <article className='border border-solid dark:text-dark border-dark dark:border-light bg-light dark:bg-slate-300 shadow-2xl p-12 rounded-3xl col-span-12 relative'>
+    <article className='border border-solid dark:text-dark border-dark dark:border-light bg-light dark:bg-slate-300 p-12 rounded-3xl col-span-12 relative'>
 
-      <div className='absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-ee-[2rem] rounded-[2.5rem] round bg-dark dark:bg-zinc-700' />
+      <div className='absolute top-0 left-0 -z-10 w-[101%] h-[103%] rounded-ee-[2rem] rounded-[2.5rem] round bg-dark dark:bg-primaryDark shadow-2xl dark:shadow-primaryDark' />
 
       <div className='w-full flex items-center justify-between'>
 
         <Link href={link} target='_blank' className='w-full cursor-pointer overflow-hidden rounded-lg'>
-          <Image src={img} alt={title} width={500} height={500} className='w-full h-full' />
+          <Image
+          src={img}
+          alt={title}
+          className='w-full h-full'
+          priority={true}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
         </Link>
 
         <div className='w-full flex flex-col items-start justify-between pl-6'>
@@ -22,7 +28,7 @@ export const ProjectCard = ({ type, title, summary, img, link, github }) => {
             <h2 className='mb-4 w-full text-left text-4xl font-bold'>{title}</h2>
           </Link>
 
-          <span className='text-primary font-medium text-xl'>{type}</span>
+          <span className='text-primary dark:text-primary font-medium text-xl'>{type}</span>
 
           <p className='my2 font-medium text-dark'>{summary}</p>
 
@@ -46,14 +52,20 @@ export const ProjectCard = ({ type, title, summary, img, link, github }) => {
 export const ProjectCardSmall = ({ title, summary, img, link, github }) => {
 
   return (
-    <article className='border border-solid dark:text-dark border-dark dark:border-light bg-light dark:bg-slate-300 shadow-2xl p-6 rounded-3xl col-span-12 relative'>
+    <article className='border border-solid dark:text-dark border-dark dark:border-light bg-light dark:bg-slate-300 p-6 rounded-3xl col-span-12 relative'>
 
-      <div className='absolute top-0 -right-3 -z-10 w-[102%] h-[102%] rounded-[2rem] bg-dark dark:bg-zinc-700' />
+      <div className='absolute top-0 left-0 -z-10 w-[102%] h-[102%] rounded-[2rem] bg-dark dark:bg-primaryDark shadow-2xl dark:shadow-primaryDark' />
 
       <div className='w-full flex flex-col items-center justify-between'>
 
         <Link href={link} target='_blank' className='w-full cursor-pointer overflow-hidden rounded-lg'>
-          <Image src={img} alt={title} width={500} height={500} className='w-full h-auto' />
+        <Image
+          src={img}
+          alt={title}
+          className='w-full h-full'
+          priority={true}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
         </Link>
 
         <div className='w-full flex flex-col items-start justify-between pl-6'>

@@ -24,9 +24,14 @@ export default function about() {
           </p>
         </div>
         <div className='border-2 border-solid border-dark dark:border-light w-[560px] h-[420px] pb-16 flex items-center justify-center rounded-2xl'>
-          <div className='w-[500px] h-[300px] bg-dark dark:bg-light rounded-2xl relative'>
+          <div className='w-[500px] h-[300px] bg-dark dark:bg-slate-500 rounded-2xl relative'>
             <div className='absolute -top-20 w-[500px] h-auto rounded-2xl'>
-              <Image src={profileImg} alt='Diego Fischer Image' className='rounded-2xl' />
+              <Image src={profileImg}
+                alt='Diego Fischer Image'
+                className='rounded-2xl'
+                priority={true}
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              />
             </div>
           </div>
         </div>

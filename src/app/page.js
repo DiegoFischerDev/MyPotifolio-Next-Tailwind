@@ -11,7 +11,12 @@ export default function Home() {
       <div className="flex w-full items-center justify-between">
 
         <div className="w-1/2 ml-auto group">
-          <Image src={bgSectionHome} alt="Diego Fischer Dev Avatar"/>
+          <Image
+          src={bgSectionHome}
+          alt="Diego Fischer Dev Avatar"
+          priority={true}
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+          />
           <LightBulb />
         </div>
 
