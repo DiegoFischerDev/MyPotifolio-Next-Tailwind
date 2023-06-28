@@ -17,9 +17,9 @@ export default function ButtonThemeDarkOrLight() {
     <button onClick={() => { setMode(mode === "light" ? "dark" : "light"); setTheme(theme === "light" ? "dark" : "light") }}>
 
       {mode === "dark" ?
-        <SunIcon className={"fill-dark ml-12 w-7"} />
+        <SunIcon className={"fill-dark w-16"} />
         :
-        <MoonIcon className={"fill-dark ml-12 w-7"} />
+        <MoonIcon className={"fill-dark w-16"} />
       }
     </button>
   );

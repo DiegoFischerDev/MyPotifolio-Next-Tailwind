@@ -7,26 +7,27 @@ import LightBulb from "@/components/LightBulb";
 
 export default function Home() {
   return (
-    <main className='relative'>
-      <div className="flex w-full items-center justify-between">
+    <main className='relative px-8'>
+      <div className="flex w-full items-center justify-between tablet:flex-col">
 
-        <div className="w-1/2 ml-auto group">
+      <AnimatedText text="Turning Vision Into Reality With Code And Design." className="hidden tablet:flex" />
+
+        <div className="w-1/2 ml-auto group tablet:w-full">
           <Image
           src={bgSectionHome}
           alt="Diego Fischer Dev Avatar"
           priority={true}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
           />
-          <LightBulb />
         </div>
 
-        <div className="w-1/2 flex flex-col items-center text-left">
-          <AnimatedText text="Turning Vision Into Reality With Code And Design." className="text-left" />
-          <p className="my-4 mr-6 text-base font-medium">
+        <div className="w-1/2 flex flex-col items-center text-left tablet:w-full">
+          <AnimatedText text="Turning Vision Into Reality With Code And Design." className="text-left tablet:hidden" />
+          <p className="my-4 mr-6 text-base font-medium relative">
             As a skilled front-end developer, I am dedicated to turning ideas into innovative web applications.
             Explore my latest projects showcasing my expertise in React.js and web development.
-          </p>
-          <div className="self-start mt-2">
+            <LightBulb /></p>
+          <div className="self-start mt-2 tablet:self-center">
             <Link href="/Resume - Diego Fischer.pdf" target={"_blank"} download={true}
             className="flex mb-4 items-center bg-dark text-light p-2.5 px-6 rounded-lg font-semibold border-2 border-solid border-transparent hover:bg-light hover:text-dark hover:border-dark dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light">Resume <LinkArrow /></Link>
           </div>

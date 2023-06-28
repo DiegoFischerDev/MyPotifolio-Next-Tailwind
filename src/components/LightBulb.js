@@ -16,7 +16,7 @@ export default function LightBulb() {
     <ImageMotion
     src={lightBulb}
     alt="Bulb"
-    className="h-auto w-1/12 absolute bottom-20 right-40 grayscale group-hover:grayscale-0 hover:grayscale-0 cursor-move"
+    className="h-auto w-1/12 min-w-[50px] absolute -bottom-40 tablet:-bottom-20 right-0 grayscale group-hover:grayscale-0 hover:grayscale-0 cursor-move"
     drag
     whileDrag={{scale:1.5}}
     dragConstraints={{left: -x, right: 40, top: -y, bottom: 20}}

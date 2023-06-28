@@ -22,8 +22,24 @@ module.exports = {
       backgroundImage: {
         circularLight: 'repeating-radial-gradient(rgba(0,0,0,0.4) 2px, #efefef 5px, #efefef 100px);',
         circularDark: 'repeating-radial-gradient(#efefef 1px, #1b1b1b 5px, #1b1b1b 100px);',
-      }
+      },
     },
+    screens: {
+      '2xl': { 'max': '1535px' },
+      // => @media (max-width: 1535px) { ... }
+
+      'desktop': { 'max': '1279px' },
+      // => @media (max-width: 1279px) { ... }
+
+      'laptop': { 'max': '1023px' },
+      // => @media (max-width: 1023px) { ... }
+
+      'tablet': { 'max': '767px' },
+      // => @media (max-width: 767px) { ... }
+
+      'mobile': { 'max': '639px' },
+      // => @media (max-width: 639px) { ... }
+    }
   },
   plugins: [],
 }
