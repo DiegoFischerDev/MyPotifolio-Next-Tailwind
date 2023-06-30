@@ -12,7 +12,7 @@ export default function Logo() {
   const { theme } = useContext(DarkThemeContext)
 
   return (
-    <div className='flex items-end justify-center absolute left-[50%] translate-x-[-50%]'>
+    <div className='absolute left-[50%] translate-x-[-50%]'>
       <MotionLink
         href="/"
         className='py-0 px-2 text-dark dark:text-light flex items-end justify-center rounded-full text-2xl mobile:text-xl font-bold'
@@ -26,8 +26,9 @@ export default function Logo() {
         }}
       >
         DiegoFischer
+        <div className='text-sm text-slate-400 dark:text-primaryDark font-bold'>.Dev</div>
       </MotionLink>
-      <div className='text-sm text-[#FF8900] dark:text-primaryDark font-bold'>.Dev</div>
+
     </div>
   );
 }
