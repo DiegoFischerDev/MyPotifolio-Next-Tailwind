@@ -10,8 +10,11 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-  title: 'Diego Fischer',
-  description: 'Portfolio web site made in NEXT JS',
+  title: {
+    default: 'Diego Fischer',
+    template: '%s | Diego Fischer'
+  },
+  description: 'Diego Fischer portfolio web site made in NEXT 13',
 }
 
 export default function RootLayout({ children }) {

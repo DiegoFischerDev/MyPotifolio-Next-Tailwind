@@ -2,6 +2,10 @@ import AnimatedText from "@/components/AnimatedText";
 import ContactForm from "@/components/ContactForm";
 import TransitionEffect from "@/components/TransitionEffect";
 
+export const metadata = {
+  title: 'Contact'
+}
+
 export default function contact() {
 
   return (

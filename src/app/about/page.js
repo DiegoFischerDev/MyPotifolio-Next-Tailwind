@@ -7,6 +7,10 @@ import Experience from '@/components/Experience';
 import Education from '@/components/Education';
 import TransitionEffect from '@/components/TransitionEffect';
 
+export const metadata = {
+  title: 'About'
+}
+
 export default function about() {
 
 

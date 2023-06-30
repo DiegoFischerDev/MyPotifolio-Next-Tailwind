@@ -3,6 +3,9 @@ import projectImage from '../../../public/images/projectImage.jpg'
 import { ProjectCard, ProjectCardSmall } from '@/components/ProjectCards';
 import TransitionEffect from '@/components/TransitionEffect';
 
+export const metadata = {
+  title: 'Projects'
+}
 
 export default function projects() {
   return (
