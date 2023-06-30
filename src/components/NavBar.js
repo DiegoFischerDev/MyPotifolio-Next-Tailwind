@@ -1,24 +1,13 @@
 import Link from 'next/link';
 import Logo from './Logo';
-import NavBarActive from './NavBarActive';
 import { WhatsappIcon, GithubIcon, LinkedInIcon, InstagramIcon } from './Icons';
 import InstagramIconTwo from '../../public/images/instagramIcon.png'
 import ButtonThemeDarkOrLight from './ButtonThemeDarkOrLight';
 import HamburguerMenu from './HamburguerMenu';
 import Image from 'next/image';
+import CustomLink from './CustomLink';
 
 export default function NavBar() {
-
-  const CustomLink = ({ href, title }) => {
-
-    return (
-      <Link href={href} className="relative group">
-        {title}
-
-        <NavBarActive href={href} />
-      </Link>
-    )
-  }
 
   return (
     <header className='w-full px-32 desktop:px-16 mobile:px-5 tablet:px-10 py-8 font-medium flex items-center justify-between relative'>

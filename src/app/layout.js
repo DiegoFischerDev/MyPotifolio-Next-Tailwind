@@ -10,11 +10,15 @@ const montserrat = Montserrat({
 })
 
 export const metadata = {
-  title: 'Diego Fischer',
-  description: 'Portfolio web site made in NEXT JS',
+  title: {
+    default: 'Diego Fischer',
+    template: '%s | Diego Fischer'
+  },
+  description: 'Diego Fischer portfolio web site made in NEXT 13',
 }
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
       <body className={`${montserrat.variable} font-mont bg-light w-full min-h-screen dark:bg-dark dark:text-light`}>
@@ -24,6 +28,6 @@ export default function RootLayout({ children }) {
           <MyFooter />
         </DarkThemeContextProvider>
       </body>
-    </html>
+    </html >
   )
 }

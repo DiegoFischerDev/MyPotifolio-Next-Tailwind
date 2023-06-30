@@ -1,10 +1,17 @@
 import AnimatedText from "@/components/AnimatedText";
 import ContactForm from "@/components/ContactForm";
+import TransitionEffect from "@/components/TransitionEffect";
+
+export const metadata = {
+  title: 'Contact'
+}
 
 export default function contact() {
 
   return (
     <main className="w-full pb-24 flex flex-col items-center justify-center">
+
+      <TransitionEffect />
 
       <AnimatedText text="Let's work together!" className="py-20 pl-2 desktop:py-14 tablet:py-10" />
 

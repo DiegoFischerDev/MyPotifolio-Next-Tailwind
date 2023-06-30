@@ -1,11 +1,17 @@
 import AnimatedText from '@/components/AnimatedText';
 import projectImage from '../../../public/images/projectImage.jpg'
 import { ProjectCard, ProjectCardSmall } from '@/components/ProjectCards';
+import TransitionEffect from '@/components/TransitionEffect';
 
+export const metadata = {
+  title: 'Projects'
+}
 
 export default function projects() {
   return (
     <main className="w-full pb-24 flex flex-col items-center justify-center">
+
+      <TransitionEffect />
 
       <AnimatedText text="Imagination Trumps Knowledge!" className="desktop:pl-8 pt-24 pb-32 desktop:pt-16 desktop:pb-24 tablet:pb-10 tablet:pt-10" />
 
