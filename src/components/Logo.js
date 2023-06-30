@@ -25,7 +25,7 @@ export default function Logo() {
           transition: { duration: 1, repeat: Infinity },
         }}
       >DiegoFischer</MotionLink>
-      <div className='text-sm ml-2 absolute bg-light dark:bg-dark text-primary dark:text-primaryDark font-bold bottom-0 -right-8'>.Dev</div>
+      <div className='text-sm ml-2 absolute bg-light dark:bg-dark text-[#FC2011] dark:text-primaryDark font-bold bottom-0 -right-8'>.Dev</div>
     </div>
   );
 }
