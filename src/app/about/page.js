@@ -5,12 +5,15 @@ import profileImg from "../../../public/images/profile-picture.png"
 import Skill from '@/components/Skill';
 import Experience from '@/components/Experience';
 import Education from '@/components/Education';
+import TransitionEffect from '@/components/TransitionEffect';
 
 export default function about() {
 
 
   return (
     <main className='w-full flex flex-col items-center'>
+
+      <TransitionEffect />
 
       <AnimatedText text="Passion Fuels Purpose!" className="self-center mt-20 mobile:mt-5 mb-32 tablet:ml-8 desktop:mb-24 mobile:mb-16" />
 

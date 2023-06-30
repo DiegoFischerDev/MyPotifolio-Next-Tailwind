@@ -4,10 +4,12 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "@/components/Icons";
 import LightBulb from "@/components/LightBulb";
+import TransitionEffect from "@/components/TransitionEffect";
 
 export default function Home() {
   return (
     <main className='relative px-8'>
+      <TransitionEffect />
       <div className="flex w-full items-center justify-between tablet:flex-col">
 
         <AnimatedText text="Turning Vision Into Reality With Code And Design." className="hidden tablet:flex" />

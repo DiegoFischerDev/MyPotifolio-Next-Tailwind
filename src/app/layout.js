@@ -15,6 +15,7 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
       <body className={`${montserrat.variable} font-mont bg-light w-full min-h-screen dark:bg-dark dark:text-light`}>
@@ -24,6 +25,6 @@ export default function RootLayout({ children }) {
           <MyFooter />
         </DarkThemeContextProvider>
       </body>
-    </html>
+    </html >
   )
 }
