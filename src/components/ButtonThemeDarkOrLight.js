@@ -7,19 +7,19 @@ import { DarkThemeContext } from '@/context/DarkThemeContext';
 
 
 
-export default function ButtonThemeDarkOrLight() {
+export default function ButtonThemeDarkOrLight({className=""}) {
 
   const {theme, setTheme} = useContext(DarkThemeContext)
 
   const [mode, setMode] = useThemeSwitcher();
 
   return (
-    <button onClick={() => { setMode(mode === "light" ? "dark" : "light"); setTheme(theme === "light" ? "dark" : "light") }}>
+    <button onClick={() => { setMode(mode === "light" ? "dark" : "light"); setTheme(theme === "light" ? "dark" : "light") }} className={`w-16 h-16 ${className}`}>
 
       {mode === "dark" ?
-        <SunIcon className={"fill-dark ml-12 w-7"} />
+        <SunIcon className={"fill-dark"} />
         :
-        <MoonIcon className={"fill-dark ml-12 w-7"} />
+        <MoonIcon className={"fill-dark"} />
       }
     </button>
   );

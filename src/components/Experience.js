@@ -4,15 +4,15 @@ import ExperienceLine from './ExperienceLine';
 
 export default function Experience() {
   return (
-    <div className='my-28'>
-      <h2 className='font-bold text-6xl mb-24 w-full text-center'>
+    <div className='my-28 tablet:my-24 mobile:my-20'>
+      <h2 className='font-bold text-6xl desktop:text-5xl tablet:text-4xl mobile:text-3xl mb-24 tablet:mb-20 mobile:mb-14 w-full text-center'>
         Experience
       </h2>
 
-      <div className='w-[75%] mx-auto relative'>
+      <div className='w-[75%] tablet:w-[90%] mobile:w-[95%] mx-auto relative'>
 
         <ExperienceLine />
-        <ul className='w-full flex flex-col items-start justify-between ml-4'>
+        <ul className='w-full flex flex-col items-start justify-between ml-4 tablet:ml-6'>
           <ExperienceDetails
             position="Junior Frontend Developer (Part-time)"
             company="Arsenal Tecnologia"

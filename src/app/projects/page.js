@@ -7,42 +7,11 @@ export default function projects() {
   return (
     <main className="w-full pb-24 flex flex-col items-center justify-center">
 
-      <AnimatedText text="Imagination Trumps Knowledge!" className="pt-24 pb-32 pl-2" />
+      <AnimatedText text="Imagination Trumps Knowledge!" className="desktop:pl-8 pt-24 pb-32 desktop:pt-16 desktop:pb-24 tablet:pb-10 tablet:pt-10" />
 
-      <div className='grid grid-cols-12 gap-24 gap-y-32 mx-36'>
+      <div className='flex justify-center flex-wrap gap-20 mx-5'>
 
-        <ProjectCard
-          title="Crypto Screener Application"
-          summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-          link="/"
-          type="Featured Project"
-          github="/"
-          img={projectImage}
-        />
-
-        <div className='col-span-6'>
-          <ProjectCardSmall
-            title="Crypto Screener Application"
-            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-            link="/"
-            type="Featured Project"
-            github="/"
-            img={projectImage}
-          />
-        </div>
-
-        <div className='col-span-6'>
-          <ProjectCardSmall
-            title="Crypto Screener Application"
-            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
-            link="/"
-            type="Featured Project"
-            github="/"
-            img={projectImage}
-          />
-        </div>
-
-        <div className='col-span-12'>
+        <div className=''>
           <ProjectCard
             title="Crypto Screener Application"
             summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
@@ -53,7 +22,7 @@ export default function projects() {
           />
         </div>
 
-        <div className='col-span-6'>
+        <div className=''>
           <ProjectCardSmall
             title="Crypto Screener Application"
             summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
@@ -64,7 +33,40 @@ export default function projects() {
           />
         </div>
 
-        <div className='col-span-6'>
+        <div className=''>
+          <ProjectCardSmall
+            title="Crypto Screener Application"
+            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+            link="/"
+            type="Featured Project"
+            github="/"
+            img={projectImage}
+          />
+        </div>
+
+        <div className=''>
+          <ProjectCard
+            title="Crypto Screener Application"
+            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+            link="/"
+            type="Featured Project"
+            github="/"
+            img={projectImage}
+          />
+        </div>
+
+        <div className=''>
+          <ProjectCardSmall
+            title="Crypto Screener Application"
+            summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
+            link="/"
+            type="Featured Project"
+            github="/"
+            img={projectImage}
+          />
+        </div>
+
+        <div className=''>
           <ProjectCardSmall
             title="Crypto Screener Application"
             summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency. A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."

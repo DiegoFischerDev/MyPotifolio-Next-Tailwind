@@ -7,7 +7,7 @@ import LiIcon from "./LiIcon"
 export default function EducationDetails ({course, place, time, info}) {
   
   return (
-    <li className='my-8 first:mt-0 last:mb-16 w-[80%] mx-auto flex flex-col items-start justify-between'>
+    <li className='my-8 tablet:my-4 first:mt-0 last:mb-16 w-[80%] mx-auto flex flex-col items-start justify-between'>
 
       <LiIcon />
 
@@ -17,8 +17,8 @@ export default function EducationDetails ({course, place, time, info}) {
         transition={{duration:1, type:"spring", delay: .5}}
         viewport={{once: true}}
       >
-        <h3 className='capitalize font-bold text-2xl '>{course}</h3>
-        <h2 className='text-primary dark:text-primaryDark text-lg'>@{place}</h2>
+        <h3 className='capitalize font-bold text-2xl tablet:text-xl '>{course}</h3>
+        <h2 className='text-primary dark:text-primaryDark text-lg tablet:text-sm'>@{place}</h2>
         <span className='capitalize font-medium text-dark/75 dark:text-light/75'>
           {time} | {info}
         </span>
