@@ -51,7 +51,7 @@ export default function ContactForm() {
   return (
     <div className="w-full flex flex-col items-center">
 
-      <form className="border-4 border-solid border-white p-8 w-1/3 flex flex-col rounded-lg" onSubmit={(e) => {sendEmail(e)}}>
+      <form className="border-4 border-solid border-gray-300 p-8 mobile:p-4 w-[90vw] max-w-[600px] flex flex-col rounded-lg" onSubmit={(e) => {sendEmail(e)}}>
         <input 
           className="my-2 h-10 px-2 rounded"
           type="text"
@@ -73,7 +73,7 @@ export default function ContactForm() {
 
         <textarea 
           className="my-2 h-36 px-2 py-4 rounded"
-          placeholder="Enter your message..."
+          placeholder="Enter your message"
           onChange={(e) => setMessage(e.target.value)}
           required
           value={message}

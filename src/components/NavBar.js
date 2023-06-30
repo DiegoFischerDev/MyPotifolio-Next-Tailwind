@@ -21,11 +21,11 @@ export default function NavBar() {
   }
 
   return (
-    <header className='w-full px-32 desktop:px-16 tablet:px-10 mobile:px-8 py-8 font-medium flex items-center justify-between relative'>
+    <header className='w-full px-32 desktop:px-16 mobile:px-5 tablet:px-10 py-8 font-medium flex items-center justify-between relative'>
 
       <div className='hidden laptop:flex justify-between w-full items-center'>
-        <HamburguerMenu />
         <ButtonThemeDarkOrLight />
+        <HamburguerMenu />
       </div>
 
       <Logo />
@@ -45,7 +45,7 @@ export default function NavBar() {
           <Link href="https://github.com/DiegoFischerDev" target={"_blank"} ><GithubIcon /></Link>
           <Link href="https://www.linkedin.com/in/diego-fischer-dev/" target={"_blank"} ><LinkedInIcon /></Link>
 
-          <ButtonThemeDarkOrLight />
+          <ButtonThemeDarkOrLight className='ml-10' />
         </nav>
 
       </div>

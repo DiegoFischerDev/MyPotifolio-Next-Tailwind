@@ -6,14 +6,14 @@ import ExperienceLine from './ExperienceLine';
 export default function Education() {
   return (
     <div className='mb-28 w-full'>
-      <h2 className='font-bold text-6xl mb-24 w-full text-center'>
+      <h2 className='font-bold text-6xl desktop:text-5xl tablet:text-4xl mobile:text-3xl mb-24 tablet:mb-16 w-full text-center'>
         Education
       </h2>
 
-      <div className='w-[75%] mx-auto relative'>
+      <div className='w-[75%] tablet:w-[90%] mobile:w-[95%] mx-auto relative'>
 
         <ExperienceLine />
-        <ul className='w-full flex flex-col items-end justify-between ml-4'>
+        <ul className='w-full flex flex-col items-end justify-between ml-4 tablet:ml-6'>
           <EducationDetails
             course="Software Development"
             place="Estácio University"
