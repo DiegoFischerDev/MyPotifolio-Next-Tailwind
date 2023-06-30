@@ -25,7 +25,7 @@ export default function Logo() {
           transition: { duration: 1, repeat: Infinity },
         }}
       >DiegoFischer<motion.span
-       className='text-sm ml-2 absolute text-primary dark:text-primaryDark -right-8'>.Dev</motion.span></MotionLink>
+       className='text-sm ml-2 absolute text-dark dark:text-light -right-8'>.Dev</motion.span></MotionLink>
     </div>
   );
 }
