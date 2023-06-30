@@ -29,10 +29,10 @@ export default function NavBar() {
         </nav>
 
         <nav className='flex justify-between items-center w-[300px]'>
-          <Link href="https://api.whatsapp.com/send?phone=351927398547&text=Hi%20Diego!%20I%20found%20your%20contact%20on%20your%20website" target={"_blank"} ><WhatsappIcon /></Link>
-          <Link href="https://instagram.com/diegooo.dev?igshid=OGQ5ZDc2ODk2ZA==" target={"_blank"} ><Image src={InstagramIconTwo} alt='instagram Icon' width={30} className='hover:-translate-y-1 transition-all duration-300' /></Link>
-          <Link href="https://github.com/DiegoFischerDev" target={"_blank"} ><GithubIcon /></Link>
-          <Link href="https://www.linkedin.com/in/diego-fischer-dev/" target={"_blank"} ><LinkedInIcon /></Link>
+          <Link aria-label='Contact me on whatsapp' href="https://api.whatsapp.com/send?phone=351927398547&text=Hi%20Diego!%20I%20found%20your%20contact%20on%20your%20website" target={"_blank"} ><WhatsappIcon /></Link>
+          <Link aria-label='Visit me on Instagram' href="https://instagram.com/diegooo.dev?igshid=OGQ5ZDc2ODk2ZA==" target={"_blank"} ><Image src={InstagramIconTwo} alt='instagram Icon' width={30} className='hover:-translate-y-1 transition-all duration-300' /></Link>
+          <Link aria-label='Check my projects on GitHub' href="https://github.com/DiegoFischerDev" target={"_blank"} ><GithubIcon /></Link>
+          <Link aria-label='Contact me on Linkedin' href="https://www.linkedin.com/in/diego-fischer-dev/" target={"_blank"} ><LinkedInIcon /></Link>
 
           <ButtonThemeDarkOrLight className='ml-10' />
         </nav>

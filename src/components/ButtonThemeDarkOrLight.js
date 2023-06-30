@@ -14,7 +14,7 @@ export default function ButtonThemeDarkOrLight({className=""}) {
   const [mode, setMode] = useThemeSwitcher();
 
   return (
-    <button onClick={() => { setMode(mode === "light" ? "dark" : "light"); setTheme(theme === "light" ? "dark" : "light") }} className={`w-16 h-16 ${className}`}>
+    <button aria-label="Change Color Theme Button" onClick={() => { setMode(mode === "light" ? "dark" : "light"); setTheme(theme === "light" ? "dark" : "light") }} className={`w-16 h-16 ${className}`}>
 
       {mode === "dark" ?
         <SunIcon className={"fill-dark"} />
