@@ -27,7 +27,7 @@ export default function Logo() {
       >
         DiegoFischer
       </MotionLink>
-      <div className='text-sm text-primary dark:text-primaryDark font-bold'>.Dev</div>
+      <div className='text-sm text-[#FF8900] dark:text-primaryDark font-bold'>.Dev</div>
     </div>
   );
 }
