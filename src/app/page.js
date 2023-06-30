@@ -32,8 +32,8 @@ export default function Home() {
             Explore my latest projects showcasing my expertise in React.js and web development.
           </p>
           <div className="self-start mt-2 tablet:self-center">
-            <Link href="/ResumeDiegoFischer.pdf" target={"_blank"} download={false}
-              className="flex mb-4 items-center bg-dark text-light p-2.5 px-6 rounded-lg font-semibold border-2 border-solid border-transparent hover:bg-light hover:text-dark hover:border-dark dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light">Resume <LinkArrow /></Link>
+            <a href="/ResumeDiegoFischer.pdf" target={"_blank"} download={true}
+              className="flex mb-4 items-center bg-dark text-light p-2.5 px-6 rounded-lg font-semibold border-2 border-solid border-transparent hover:bg-light hover:text-dark hover:border-dark dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light">Resume <LinkArrow /></a>
           </div>
         </div>
 
