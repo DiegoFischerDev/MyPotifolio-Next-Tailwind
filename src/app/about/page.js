@@ -15,20 +15,20 @@ export default function about() {
 
 
   return (
-    <main className='w-full flex flex-col items-center'>
+    <main className='w-full pb-24 px-5 flex flex-col items-center justify-center'>
 
       <TransitionEffect />
 
       <AnimatedText text="Passion Fuels Purpose!" className="self-center mt-20 mobile:mt-5 mb-32 tablet:ml-8 desktop:mb-24 mobile:mb-16" />
 
 
-      <div className='flex items-center w-[90vw] desktop:flex-col max-w-[1100px]'>
+      <div className='flex items-center w-full max-w-[1100px] desktop:flex-col'>
 
-        <div className='border border-solid dark:text-dark border-dark dark:border-light bg-light dark:bg-slate-300 pt-1 pb-2 rounded-3xl relative flex items-center justify-evenly desktop:flex-col w-[860px] desktop:w-[460px] max-w-[95vw] h-[330px] desktop:mb-10'>
+        <div className='mr-10 desktop:mr-0 border border-solid dark:text-dark border-dark dark:border-light bg-light dark:bg-slate-300 rounded-3xl relative flex items-center justify-evenly desktop:flex-col w-[330px] max-w-[95%] h-[260px] desktop:mb-10'>
 
           <div className='absolute top-0 left-0 -z-10 w-[102%] h-[103%] rounded-ee-[2rem] rounded-[2.5rem] bg-dark dark:bg-primaryDark ' />
 
-          <div className="relative bg-[#FAB714] dark:bg-slate-500 w-[400px] h-[270px] flex items-center justify-center rounded-2xl border-2 border-solid border-dark dark:border-light translate-y-8 mb-16 mx-8 tablet:mx-0 max-w-[90vw]">
+          <div className="relative bg-[#FAB714] dark:bg-slate-500 w-[300px] h-[220px] flex items-center justify-center rounded-2xl border-2 border-solid border-dark dark:border-light translate-y-8 mb-16 mx-8 tablet:mx-0 max-w-[90vw]">
 
             <div className='absolute bottom-0 rounded-2xl grayscale-[70%] scale-y-[1.01]'>
               <Image src={profileImg}
@@ -42,7 +42,7 @@ export default function about() {
           </div>
         </div>
 
-        <div className='ml-5 tablet:ml-0 px-5 flex flex-col items-start justify-start text-dark/75 dark:text-light/75 max-w-[900px]'>
+        <div className='w-full tablet:ml-0 flex flex-col items-start justify-start text-dark/75 dark:text-light/75 max-w-[900px]'>
           <h2 className='mb-4 text-lg font-bold uppercase '>About me</h2>
           <p className='font-medium'>
             After many years working as a marine engineer in the oil exploration industry, I decided to try and navigate the seas of technology where I found a new career path that matches my life aspirations.

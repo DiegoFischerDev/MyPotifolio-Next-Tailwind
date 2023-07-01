@@ -22,7 +22,7 @@ export default function ExperienceDetails ({position, company, time, address, wo
         <span className='capitalize font-medium text-dark/75 dark:text-light/75'>
           {time} | {address}
         </span>
-        <p className='font-medium w-full'>
+        <p className='my-2 mobile:text-xs font-medium w-full'>
           {work}
         </p>
       </motion.div>
