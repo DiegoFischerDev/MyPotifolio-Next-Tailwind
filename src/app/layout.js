@@ -16,11 +16,11 @@ export const metadata = {
   },
   description: 'Diego Fischer portfolio web site made in NEXT 13',
   icons: {
-    icon: ['/favicon/favicon.ico?v=4'],
-    apple: ['/favicon/apple-touch-icon.png?v=4'],
-    shortcut: ['/favicon/apple-touch-icon.png']
+    icon: ['/favicon.ico?v=4'],
+    apple: ['/apple-touch-icon.png?v=4'],
+    shortcut: ['/apple-touch-icon.png']
   },
-  manifest: '/favicon/site.webmanifest'
+  manifest: '/site.webmanifest'
 }
 
 export default function RootLayout({ children }) {
