@@ -15,6 +15,12 @@ export const metadata = {
     template: '%s | Diego Fischer'
   },
   description: 'Diego Fischer portfolio web site made in NEXT 13',
+  icons: {
+    icon: ['/favicon.ico?v=4'],
+    apple: ['/apple-touch-icon.png?v=4'],
+    shortcut: ['/apple-touch-icon.png']
+  },
+  manifest: '/site.webmanifest'
 }
 
 export default function RootLayout({ children }) {

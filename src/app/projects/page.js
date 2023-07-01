@@ -9,13 +9,13 @@ export const metadata = {
 
 export default function projects() {
   return (
-    <main className="w-full pb-24 flex flex-col items-center justify-center">
+    <main className="w-full pb-24 px-5 flex flex-col items-center justify-center">
 
       <TransitionEffect />
 
       <AnimatedText text="Imagination Trumps Knowledge!" className="desktop:pl-8 pt-24 pb-32 desktop:pt-16 desktop:pb-24 tablet:pb-10 tablet:pt-10" />
 
-      <div className='flex justify-center flex-wrap gap-20 mx-5'>
+      <div className='flex justify-center flex-wrap gap-20'>
 
         <div className=''>
           <ProjectCard

@@ -10,7 +10,7 @@ export default function Education() {
         Education
       </h2>
 
-      <div className='w-[75%] tablet:w-[90%] mobile:w-[95%] mx-auto relative'>
+      <div className='w-[75%] tablet:w-[90%] mobile:w-full mx-auto relative -translate-x-4'>
 
         <ExperienceLine />
         <ul className='w-full flex flex-col items-end justify-between ml-4 tablet:ml-6'>

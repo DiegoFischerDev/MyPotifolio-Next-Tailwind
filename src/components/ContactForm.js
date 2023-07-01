@@ -1,7 +1,9 @@
 'use client'
 
-import { useEffect, useRef, useState } from "react";
+import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser'  // https://www.emailjs.com/
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function ContactForm() {
 
@@ -40,7 +42,7 @@ export default function ContactForm() {
       setName('');
       setEmail('');
       setMessage('');
-      alert("email enviado!")
+      toast.success('Message sent! Thank you.');
 
     }, (error) => {
       console.log(error);
@@ -50,8 +52,9 @@ export default function ContactForm() {
 
   return (
     <div className="w-full flex flex-col items-center">
+      <ToastContainer />
 
-      <form className="border-4 border-solid border-gray-300 p-8 mobile:p-4 w-[90vw] max-w-[600px] flex flex-col rounded-lg" onSubmit={(e) => {sendEmail(e)}}>
+      <form className="border-4 border-solid border-gray-300 p-8 mobile:p-4 w-full max-w-[600px] flex flex-col rounded-lg text-dark" onSubmit={(e) => {sendEmail(e)}}>
         <input 
           className="my-2 h-10 px-2 rounded"
           type="text"

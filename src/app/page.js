@@ -8,7 +8,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 
 export default function Home() {
   return (
-    <main className='relative px-8'>
+    <main className='relative px-5'>
       <TransitionEffect />
       <div className="flex w-full items-center justify-between tablet:flex-col">
 
