@@ -15,8 +15,9 @@ export default function contact() {
 
       <AnimatedText text="Let's work together!" className="py-20 desktop:py-14 tablet:py-10" />
 
-      <h3 className="text-2xl tablet:text-xl mb-4">Do you need a push in a web project?</h3>
-      <h3 className="text-2xl tablet:text-xl mb-10"><span className="text-primary dark:text-primaryDark">Get in touch!</span></h3>
+      <h3 className="text-2xl tablet:text-xl mb-4 tablet:mb-10">Do you need a push in a web project? <span className="text-primary dark:text-primaryDark hidden tablet:inline">Get in touch!</span></h3>
+      <h3 className="text-2xl tablet:text-xl mb-10 tablet:hidden">
+      <span className="text-primary dark:text-primaryDark">Get in touch!</span></h3>
 
       <ContactForm />
 

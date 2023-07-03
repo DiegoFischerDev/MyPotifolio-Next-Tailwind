@@ -27,15 +27,15 @@ export const ProjectCard = ({ type, title, summary, img, link, github }) => {
         </div>
 
 
-        <div className='flex flex-col items-start justify-between w-2/3 desktop:w-full pl-6'>
+        <div className='flex flex-col items-start justify-between w-2/3 desktop:w-full pl-6 mobile:pl-2'>
 
           <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
-            <h2 className='mb-4 w-full text-left text-4xl font-bold'>{title}</h2>
+            <h2 className='mb-4 w-full text-left text-4xl tablet:text-3xl mobile:text-2xl font-bold'>{title}</h2>
           </Link>
 
-          <span className='text-primary dark:text-primary font-medium text-xl'>{type}</span>
+          <span className='text-primary dark:text-primary font-medium text-xl mobile:text-base'>{type}</span>
 
-          <p className='my2 font-medium text-dark'>{summary}</p>
+          <p className='my2 font-medium text-dark mobile:text-sm'>{summary}</p>
 
           <div className='mt-4 flex justify-between'>
 
@@ -73,13 +73,13 @@ export const ProjectCardSmall = ({ title, summary, img, link, github }) => {
           />
         </Link>
 
-        <div className='w-full flex flex-col items-start justify-between pl-6'>
+        <div className='w-full flex flex-col items-start justify-between pl-6 mobile:pl-2'>
 
           <Link href={link} target='_blank' className='hover:underline underline-offset-2'>
-            <h2 className='my-4 w-full text-left text-4xl font-bold'>{title}</h2>
+            <h2 className='my-4 w-full text-left text-4xl tablet:text-3xl mobile:text-2xl font-bold'>{title}</h2>
           </Link>
 
-          <p className='my2 font-medium text-dark'>{summary}</p>
+          <p className='my2 font-medium text-dark mobile:text-sm'>{summary}</p>
 
           <div className='mt-4 flex justify-between'>
 

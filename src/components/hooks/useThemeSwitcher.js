@@ -5,7 +5,7 @@ export default function useThemeSwitcher() {
 
   const preferDarkQuery = "(prefer-color-scheme: dark)"
 
-  const [ mode, setMode ] = useState("light");
+  const [ mode, setMode ] = useState(window.localStorage.getItem("@theme"));
 
   useEffect(() => {
 
@@ -15,9 +15,9 @@ export default function useThemeSwitcher() {
     function handleChange() {
       if(userPref){
         let check = userPref === "dark" ? "dark" : "light";
-        setMode(check);
+        setMode("check");
 
-        if(check === "dark"){
+        if(mode === "dark"){
           document.documentElement.classList.add("dark");
         } else {
           document.documentElement.classList.remove("dark");
@@ -28,7 +28,7 @@ export default function useThemeSwitcher() {
         setMode(check);
       }
 
-      if(check === "dark"){
+      if(mode === "dark"){
         document.documentElement.classList.add("dark");
       } else {
         document.documentElement.classList.remove("dark");

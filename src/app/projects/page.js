@@ -13,7 +13,7 @@ export default function projects() {
 
       <TransitionEffect />
 
-      <AnimatedText text="Imagination Trumps Knowledge!" className="desktop:pl-8 pt-24 pb-32 desktop:pt-16 desktop:pb-24 tablet:pb-10 tablet:pt-10" />
+      <AnimatedText text="Imagination Trumps Knowledge!" className="pl-8 tablet:pl-0 pt-24 pb-32 desktop:pt-16 desktop:pb-24 tablet:pb-10 tablet:pt-10" />
 
       <div className='flex justify-center flex-wrap gap-20'>
 

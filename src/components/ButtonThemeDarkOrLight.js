@@ -6,11 +6,9 @@ import useThemeSwitcher from './hooks/useThemeSwitcher'
 import { DarkThemeContext } from '@/context/DarkThemeContext';
 
 
-
 export default function ButtonThemeDarkOrLight({className=""}) {
 
-  const {theme, setTheme} = useContext(DarkThemeContext)
-
+  const {theme, setTheme} = useContext(DarkThemeContext);
   const [mode, setMode] = useThemeSwitcher();
 
   return (

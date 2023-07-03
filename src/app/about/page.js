@@ -19,7 +19,7 @@ export default function about() {
 
       <TransitionEffect />
 
-      <AnimatedText text="Passion Fuels Purpose!" className="self-center mt-20 mobile:mt-5 mb-32 tablet:ml-8 desktop:mb-24 mobile:mb-16" />
+      <AnimatedText text="Passion Fuels Purpose!" className="mt-20 mobile:mt-5 mb-32 pl-8 tablet:pl-0 desktop:mb-24 mobile:mb-16" />
 
 
       <div className='flex items-center w-full max-w-[1100px] desktop:flex-col'>

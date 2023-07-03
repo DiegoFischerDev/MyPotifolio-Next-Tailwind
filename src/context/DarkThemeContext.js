@@ -7,7 +7,7 @@ export const DarkThemeContext = createContext({})
 
 export const DarkThemeContextProvider = ({ children }) => {
 
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState(window.localStorage.getItem("@theme"));
 
   return (
     <DarkThemeContext.Provider value={{
