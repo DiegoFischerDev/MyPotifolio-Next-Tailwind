@@ -9,7 +9,7 @@ export default function ExperienceLine() {
 
   const {scrollYProgress} = useScroll({
     target: ExperienceLineRef,
-    offset: ["start end", "center start"]
+    offset: ["start center", "end start"]
   })
 
  return (

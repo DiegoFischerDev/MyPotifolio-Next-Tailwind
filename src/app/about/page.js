@@ -1,11 +1,12 @@
 import AnimatedText from '@/components/AnimatedText';
 import Image from 'next/image';
 import React from 'react';
-import profileImg from "../../../public/images/profile-picture.png"
+import profileImg from "../../../public/images/about-picture.png"
 import Skill from '@/components/Skill';
 import Experience from '@/components/Experience';
 import Education from '@/components/Education';
 import TransitionEffect from '@/components/TransitionEffect';
+import { JavascriptIcon, NextIcon, ReactIcon } from '@/components/Icons';
 
 export const metadata = {
   title: 'About'
@@ -19,31 +20,35 @@ export default function about() {
 
       <TransitionEffect />
 
-      <AnimatedText text="Passion Fuels Purpose!" className="self-center mt-20 mobile:mt-5 mb-32 tablet:ml-8 desktop:mb-24 mobile:mb-16" />
+      <AnimatedText text="Passion Fuels Purpose!" className="mt-20 mobile:mt-5 mb-32 pl-8 tablet:pl-0 desktop:mb-24 mobile:mb-16" />
 
 
-      <div className='flex items-center w-full max-w-[1100px] desktop:flex-col'>
+      <div className='flex items-center w-full max-w-[1200px] desktop:flex-col'>
 
-        <div className='mr-10 desktop:mr-0 border border-solid dark:text-dark border-dark dark:border-light bg-light dark:bg-slate-300 rounded-3xl relative flex items-center justify-evenly desktop:flex-col w-[330px] max-w-[95%] h-[260px] desktop:mb-10'>
+        <div className='hidden desktop:inline grayscale-[30%] max-w-[500px] h-auto mr-10 desktop:mr-0 desktop:flex-col desktop:mb-10 relative'>
+          <Image src={profileImg}
+            alt='Diego Fischer Image'
+            className='rounded-lg'
+            priority={true}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
 
-          <div className='absolute top-0 left-0 -z-10 w-[102%] h-[103%] rounded-ee-[2rem] rounded-[2.5rem] bg-dark dark:bg-primaryDark ' />
 
-          <div className="relative bg-[#FAB714] dark:bg-slate-500 w-[300px] h-[220px] flex items-center justify-center rounded-2xl border-2 border-solid border-dark dark:border-light translate-y-8 mb-16 mx-8 tablet:mx-0 max-w-[90vw]">
-
-            <div className='absolute bottom-0 rounded-2xl grayscale-[70%] scale-y-[1.01]'>
-              <Image src={profileImg}
-                alt='Diego Fischer Image'
-                className='rounded-2xl'
-                priority={true}
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-              />
+          <div className='w-full flex items-center justify-between flex-wrap'>
+            <NextIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulse absolute top-44 left-0 -z-10" />
+            <div className='dark:bg-light bg-black/75 rounded animate-pulse absolute top-0 left-0 -z-10'>
+              <ReactIcon className="w-44 dark:fill-dark fill-light " />
             </div>
+            <JavascriptIcon className="w-[28%] dark:fill-light fill-black/75 animate-pulse absolute top-0 right-0 -z-10" />
 
           </div>
         </div>
 
-        <div className='w-full tablet:ml-0 flex flex-col items-start justify-start text-dark/75 dark:text-light/75 max-w-[900px]'>
+
+        <div className='w-full h-[100%] tablet:ml-0 flex flex-col items-start justify-center text-dark/75 dark:text-light/75 max-w-[900px]'>
+
           <h2 className='mb-4 text-lg font-bold uppercase '>About me</h2>
+
           <p className='font-medium'>
             After many years working as a marine engineer in the oil exploration industry, I decided to try and navigate the seas of technology where I found a new career path that matches my life aspirations.
           </p>
@@ -53,6 +58,23 @@ export default function about() {
           <p className='font-medium'>
             I am a self-taught person, learning how to code better everyday and always open to opportunities to grow as a professional and as a person.
           </p>
+        </div>
+
+        <div className='desktop:hidden grayscale-[30%] max-w-[500px] h-auto mr-10 desktop:mr-0 desktop:flex-col desktop:mb-10 relative'>
+          <Image src={profileImg}
+            alt='Diego Fischer Image'
+            className='rounded-lg'
+            priority={true}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
+
+          <div className='w-full flex items-center justify-between flex-wrap'>
+            <NextIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulse absolute top-28 right-0 -z-10" />
+            <div className='dark:bg-light bg-black/75 rounded animate-pulse absolute top-0 left-0 -z-10'>
+              <ReactIcon className="w-44 tablet:w-36 mobile:w-20 dark:fill-dark fill-light " />
+            </div>
+            <JavascriptIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulse absolute top-0 right-0 -z-10" />
+          </div>
         </div>
 
       </div>

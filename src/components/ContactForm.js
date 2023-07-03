@@ -14,7 +14,7 @@ export default function ContactForm() {
 
   const emailRef = useRef(null);
 
-  function handleEmailInputChange(e){
+  function handleEmailInputChange(e) {
 
     setEmail(e.target.value);
     setEmailValidation(/\S+@\S+\.\S+/.test(email));
@@ -36,26 +36,39 @@ export default function ContactForm() {
       email: email
     }
 
-    emailjs.send("service_x67z2t9", "template_d9l2dsx", templateParams, "llj__muMS8LgT28ex" )
-    .then((response) => {
-      console.log("email enviado", response.status, response.text)
-      setName('');
-      setEmail('');
-      setMessage('');
-      toast.success('Message sent! Thank you.');
+    const myPromise = new Promise((resolve, reject) => {
 
-    }, (error) => {
-      console.log(error);
+      emailjs.send("service_x67z2t9", "template_d9l2dsx", templateParams, "llj__muMS8LgT28ex")
+      .then((response) => {
+        console.log("email enviado", response.status, response.text)
+        setName('');
+        setEmail('');
+        setMessage('');
+        resolve();
+
+      }, (error) => {
+        reject();
+        console.error(error);
+      })
+
     })
 
+    toast.promise(
+      myPromise,
+      {
+        pending: 'Sending...',
+        success: 'Message sent! Thank you.',
+        error: 'Ops, Something went wrong. Message not sent.'
+      }
+    )
   }
 
   return (
     <div className="w-full flex flex-col items-center">
       <ToastContainer />
 
-      <form className="border-4 border-solid border-gray-300 p-8 mobile:p-4 w-full max-w-[600px] flex flex-col rounded-lg text-dark" onSubmit={(e) => {sendEmail(e)}}>
-        <input 
+      <form className="border-4 border-solid border-gray-300 p-8 mobile:p-4 w-full max-w-[600px] flex flex-col rounded-lg text-dark" onSubmit={(e) => { sendEmail(e) }}>
+        <input
           className="my-2 h-10 px-2 rounded"
           type="text"
           placeholder="Enter your name"
@@ -63,18 +76,18 @@ export default function ContactForm() {
           required
           value={name}
         />
-        
-        <input 
+
+        <input
           className="my-2 h-10 px-2 rounded"
           type="text"
           placeholder="Enter your email"
-          onChange={(e) => {handleEmailInputChange(e)}}
+          onChange={(e) => { handleEmailInputChange(e) }}
           ref={emailRef}
           required
           value={email}
         />
 
-        <textarea 
+        <textarea
           className="my-2 h-36 px-2 py-4 rounded"
           placeholder="Enter your message"
           onChange={(e) => setMessage(e.target.value)}
@@ -83,9 +96,9 @@ export default function ContactForm() {
         />
 
         <input
-        className="mt-8 border-2 bg-primary dark:bg-primaryDark text-white p-2 rounded text-2xl cursor-pointer font-semibold hover:bg-light dark:hover:bg-light border-white"
-        type="submit"
-        value="Send to Diego" />
+          className="mt-8 border-2 bg-primary dark:bg-primaryDark text-white p-2 rounded text-2xl cursor-pointer font-semibold hover:bg-light dark:hover:bg-light border-white"
+          type="submit"
+          value="Send to Diego" />
       </form>
 
     </div>
