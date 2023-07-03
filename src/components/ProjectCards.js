@@ -8,7 +8,7 @@ export const ProjectCard = ({ type, title, summary, img, link, github }) => {
   return (
     <article className='border border-solid dark:text-dark border-dark dark:border-light bg-light dark:bg-slate-300 p-12 rounded-3xl relative mx-20 desktop:mx-0 desktop:max-w-[500px] tablet:max-w-[400px] desktop:px-3 desktop:py-8'>
 
-      <div className='absolute top-0 left-0 -z-10 w-[101%] desktop:w-[102%] h-[103%] desktop:h-[102%] rounded-ee-[2rem] rounded-[2rem] round bg-dark dark:bg-primaryDark shadow-2xl dark:shadow-primaryDark' />
+      <div className='absolute top-0 left-0 -z-10 w-[101%] desktop:w-[102%] h-[103%] desktop:h-[102%] rounded-ee-[2rem] rounded-[2rem] round bg-dark dark:bg-primaryDark shadow-2xl dark:shadow-primaryDark dark:animate-pulse' />
 
       <div className='w-full flex items-center justify-between desktop:flex-col'>
 
@@ -59,7 +59,7 @@ export const ProjectCardSmall = ({ title, summary, img, link, github }) => {
   return (
     <article className='border border-solid dark:text-dark border-dark dark:border-light bg-light dark:bg-slate-300 px-2 py-6 rounded-3xl col-span-12 relative max-w-[400px]'>
 
-      <div className='absolute top-0 left-0 -z-10 w-[102%] h-[102%] rounded-[2rem] bg-dark dark:bg-primaryDark shadow-2xl dark:shadow-primaryDark' />
+      <div className='absolute top-0 left-0 -z-10 w-[102%] h-[102%] rounded-[2rem] bg-dark dark:bg-primaryDark shadow-2xl dark:shadow-primaryDark dark:animate-pulse' />
 
       <div className='w-full flex flex-col items-center justify-between'>
 
