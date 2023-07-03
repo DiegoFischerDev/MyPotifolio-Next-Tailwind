@@ -1,7 +1,7 @@
 import AnimatedText from '@/components/AnimatedText';
 import Image from 'next/image';
 import React from 'react';
-import profileImg from "../../../public/images/about-picture.png"
+import profileImg from "../../../public/images/about-picture-tyne.png"
 import Skill from '@/components/Skill';
 import Experience from '@/components/Experience';
 import Education from '@/components/Education';
@@ -35,11 +35,11 @@ export default function about() {
 
 
           <div className='w-full flex items-center justify-between flex-wrap'>
-            <NextIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulse absolute top-44 left-0 -z-10" />
-            <div className='dark:bg-light bg-black/75 rounded animate-pulse absolute top-0 left-0 -z-10'>
+            <NextIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulseThree absolute top-44 left-0 -z-10" />
+            <div className='dark:bg-light bg-black/75 rounded animate-pulseTwo absolute top-0 left-0 -z-10'>
               <ReactIcon className="w-44 dark:fill-dark fill-light " />
             </div>
-            <JavascriptIcon className="w-[28%] dark:fill-light fill-black/75 animate-pulse absolute top-0 right-0 -z-10" />
+            <JavascriptIcon className="w-[28%] dark:fill-light fill-black/75 animate-pulseOne absolute top-0 right-0 -z-10" />
 
           </div>
         </div>
@@ -69,11 +69,11 @@ export default function about() {
           />
 
           <div className='w-full flex items-center justify-between flex-wrap'>
-            <NextIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulse absolute top-28 right-0 -z-10" />
-            <div className='dark:bg-light bg-black/75 rounded animate-pulse absolute top-0 left-0 -z-10'>
+            <NextIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulseOne absolute top-28 right-0 -z-10" />
+            <div className='dark:bg-light bg-black/75 rounded animate-pulseTwo absolute top-0 left-0 -z-10'>
               <ReactIcon className="w-44 tablet:w-36 mobile:w-20 dark:fill-dark fill-light " />
             </div>
-            <JavascriptIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulse absolute top-0 right-0 -z-10" />
+            <JavascriptIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulseThree absolute top-0 right-0 -z-10" />
           </div>
         </div>
 

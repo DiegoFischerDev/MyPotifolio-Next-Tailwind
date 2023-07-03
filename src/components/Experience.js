@@ -16,7 +16,7 @@ export default function Experience() {
           <ExperienceDetails
             position="Junior Frontend Developer (Part-time)"
             company="Arsenal Tecnologia"
-            time="from Jan-2023 until now"
+            time="2022 - 2023"
             address="Évora, Portugal · On-site"
             work="Arsenal is a software development company that operates in Brazil and Portugal. As a junior front-end developer, I contribute to the development of Evo, an application designed specifically for doctors to streamline patient visits. In my role, I focus on building the user interface and user experience for the new version of Evo. By utilizing my front-end development skills, I work closely with the team to create visually appealing and user-friendly designs."
           />
