@@ -18,6 +18,9 @@ module.exports = {
       },
       animation: {
         'spin-slow': 'spin 8s linear infinite',
+        'pulseOne': 'bounce 8s linear infinite',
+        'pulseTwo': 'bounce 6s linear infinite',
+        'pulseThree': 'bounce 10s linear infinite',
       },
       backgroundImage: {
         circularLight:
