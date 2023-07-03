@@ -12,12 +12,6 @@ export default function ContactForm() {
   const [message, setMessage] = useState('')
   const [emailValidation, setEmailValidation] = useState('')
 
-  console.log(name);
-
-  let x = 2;
-
-  console.log(x)
-
   const emailRef = useRef(null);
 
   function handleEmailInputChange(e) {
