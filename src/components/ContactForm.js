@@ -42,18 +42,31 @@ export default function ContactForm() {
       email: email
     }
 
-    emailjs.send("service_x67z2t9", "template_d9l2dsx", templateParams, "llj__muMS8LgT28ex")
+    const myPromise = new Promise((resolve, reject) => {
+
+      emailjs.send("service_x67z2t9", "template_d9l2dsx", templateParams, "llj__muMS8LgT28ex")
       .then((response) => {
         console.log("email enviado", response.status, response.text)
         setName('');
         setEmail('');
         setMessage('');
-        toast.success('Message sent! Thank you.');
+        resolve();
 
       }, (error) => {
-        console.log(error);
+        reject();
+        console.error(error);
       })
 
+    })
+
+    toast.promise(
+      myPromise,
+      {
+        pending: 'Sending...',
+        success: 'Message sent! Thank you.',
+        error: 'Ops, Something went wrong. Message not sent.'
+      }
+    )
   }
 
   return (

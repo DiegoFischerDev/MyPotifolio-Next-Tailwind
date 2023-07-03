@@ -6,7 +6,7 @@ import Skill from '@/components/Skill';
 import Experience from '@/components/Experience';
 import Education from '@/components/Education';
 import TransitionEffect from '@/components/TransitionEffect';
-import { JavascriptIcon, NextIcon, ReactIcon, TailwindIcon } from '@/components/Icons';
+import { JavascriptIcon, NextIcon, ReactIcon } from '@/components/Icons';
 
 export const metadata = {
   title: 'About'
@@ -37,7 +37,7 @@ export default function about() {
           <div className='w-full flex items-center justify-between flex-wrap'>
             <NextIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulse absolute top-44 left-0 -z-10" />
             <div className='dark:bg-light bg-black/75 rounded animate-pulse absolute top-0 left-0 -z-10'>
-              <ReactIcon className="w-80 tablet:w-60 mobile:w-44 dark:fill-dark fill-light " />
+              <ReactIcon className="w-44 dark:fill-dark fill-light " />
             </div>
             <JavascriptIcon className="w-[28%] dark:fill-light fill-black/75 animate-pulse absolute top-0 right-0 -z-10" />
 
@@ -71,7 +71,7 @@ export default function about() {
           <div className='w-full flex items-center justify-between flex-wrap'>
             <NextIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulse absolute top-28 right-0 -z-10" />
             <div className='dark:bg-light bg-black/75 rounded animate-pulse absolute top-0 left-0 -z-10'>
-              <ReactIcon className="w-60 tablet:w-60 mobile:w-20 dark:fill-dark fill-light " />
+              <ReactIcon className="w-44 tablet:w-36 mobile:w-20 dark:fill-dark fill-light " />
             </div>
             <JavascriptIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulse absolute top-0 right-0 -z-10" />
           </div>
