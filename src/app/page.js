@@ -27,7 +27,7 @@ export default function Home() {
         <div className="w-1/2 flex flex-col items-center text-left tablet:w-full">
           <AnimatedText text="Turning Vision Into Reality With Code And Design." className="text-left tablet:hidden" />
           <p className="my-6 mr-6 text-base font-medium">
-            Welcome to my personal portfolio page! I'm a full-stack developer with a passion for creating testable and scalable applications from end-to-end.
+            Welcome to my personal portfolio page! I am a full-stack developer with a passion for creating testable and scalable applications from end-to-end.
           </p>
           <p className="text-start w-full mb-6 text-base font-medium">Explore my latest projects showcasing my expertise in web development.</p>
           <div className="flex w-full items-center justify-start">

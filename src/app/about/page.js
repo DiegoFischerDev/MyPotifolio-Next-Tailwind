@@ -50,7 +50,7 @@ export default function about() {
           <h2 className='mb-4 text-lg font-bold uppercase '>About me</h2>
 
           <p className='font-medium mb-6'>
-          Hello! I'm Diego, a <span className='text-primary dark:text-primaryDark'>Full-Stack Developer</span> with expertise in Front-End Technologies. I have a background working as an engineer in big companies in Brazil. Currently, living in Portugal, i work as <span className='text-primary dark:text-primaryDark'>Front-End Developer</span> part-time at Arsenal Tecnologia. I collaborate closely with the team, utilizing my front-end skills to create visually appealing and user-friendly designs.
+          Hello! I am Diego, a <span className='text-primary dark:text-primaryDark'>Full-Stack Developer</span> with expertise in Front-End Technologies. I have a background working as an engineer in big companies in Brazil. Currently, living in Portugal, i work as <span className='text-primary dark:text-primaryDark'>Front-End Developer</span> part-time at Arsenal Tecnologia. I collaborate closely with the team, utilizing my front-end skills to create visually appealing and user-friendly designs.
           </p>
           <p className='font-medium'>In addition, I also undertake freelance projects, ranging from website creation to developing software for internal company use and mobile applications.</p>
 
@@ -117,7 +117,7 @@ export default function about() {
         <h2 className='mb-4 text-lg font-bold uppercase '>Continuous Learning and Growth</h2>
 
         <p className='font-medium mb-6'>
-          I'm always dedicated to staying up-to-date and keeping an eye on emerging technologies. Currently, I am focused on studying <span className='text-primary dark:text-primaryDark'>TypeScript</span> and implementing <span className='text-primary dark:text-primaryDark'>Unit Testing</span>, both of which are essential for professional application scalability and maintenance. In the future, I plan to expand my knowledge by studying <span className='text-primary dark:text-primaryDark'>Node JS</span> and developing backend skills. As a firm believer in lifelong learning, I am committed to continuously improving my skills and knowledge.
+          I am always dedicated to staying up-to-date and keeping an eye on emerging technologies. Currently, I am focused on studying <span className='text-primary dark:text-primaryDark'>TypeScript</span> and implementing <span className='text-primary dark:text-primaryDark'>Unit Testing</span>, both of which are essential for professional application scalability and maintenance. In the future, I plan to expand my knowledge by studying <span className='text-primary dark:text-primaryDark'>Node JS</span> and developing backend skills. As a firm believer in lifelong learning, I am committed to continuously improving my skills and knowledge.
         </p>
       </div>
 
