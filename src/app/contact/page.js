@@ -21,7 +21,7 @@ export default function contact() {
 
       <ContactForm />
 
-      <h3 className="mt-10 max-w-[1000px] text-center">Thank you for visiting my portfolio page, and I look forward to connecting with you for exciting opportunities and collaborations. Feel free to reach out and explore how we can work together to bring innovative ideas to life.</h3>
+      <h3 className="mt-10 max-w-[1000px] text-center">Thank you for visiting my portfolio page. Feel free to reach out and explore how we can work together to bring innovative ideas to life.</h3>
 
       <div className="flex items-center w-full justify-center">
         <div className="flex items-center justify-center mt-10 w-[650px] mobile:w-fit mobile:flex-col mobile:items-start mobile:justify-between h-[50px] tablet:text-sm">
