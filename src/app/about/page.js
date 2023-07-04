@@ -50,8 +50,9 @@ export default function about() {
           <h2 className='mb-4 text-lg font-bold uppercase '>About me</h2>
 
           <p className='font-medium mb-6'>
-          Hello! I'm Diego, a <span className='text-primary dark:text-primaryDark'>Full-Stack Developer</span> with expertise in Front-End Technologies. I have a background working as an engineer in big companies in Brazil. Currently, living in Portugal, i work as <span className='text-primary dark:text-primaryDark'>Front-End Developer</span> part-time at Arsenal Tecnologia. I collaborate closely with the team, utilizing my front-end skills to create visually appealing and user-friendly designs.<br/><br/>In addition, I also undertake freelance projects, ranging from website creation to developing software for internal company use and mobile applications.
+          Hello! I'm Diego, a <span className='text-primary dark:text-primaryDark'>Full-Stack Developer</span> with expertise in Front-End Technologies. I have a background working as an engineer in big companies in Brazil. Currently, living in Portugal, i work as <span className='text-primary dark:text-primaryDark'>Front-End Developer</span> part-time at Arsenal Tecnologia. I collaborate closely with the team, utilizing my front-end skills to create visually appealing and user-friendly designs.
           </p>
+          <p className='font-medium'>In addition, I also undertake freelance projects, ranging from website creation to developing software for internal company use and mobile applications.</p>
 
           <div className="self-start tablet:self-center">
             <a href="/ResumeDiegoFischer.pdf" target={"_blank"} download={true}
