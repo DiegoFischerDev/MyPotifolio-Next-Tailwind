@@ -4,20 +4,27 @@ import ExperienceLine from './ExperienceLine';
 
 export default function Experience() {
   return (
-    <div className='my-28 tablet:my-24 mobile:my-20'>
-      <h2 className='font-bold text-6xl desktop:text-5xl tablet:text-4xl mobile:text-3xl mb-24 tablet:mb-20 mobile:mb-14 w-full text-center'>
+    <div className='w-full max-w-[1200px] my-28 tablet:my-24 mobile:my-20'>
+      <h2 className='font-bold text-5xl desktop:text-5xl tablet:text-4xl mobile:text-3xl mb-24 tablet:mb-20 mobile:mb-14 w-full text-center'>
         Experience
       </h2>
 
-      <div className='w-[75%] tablet:w-[90%] mobile:w-full mx-auto relative -translate-x-4'>
+      <div className=' text-dark/75 dark:text-light/75 mx-auto relative -translate-x-4'>
 
         <ExperienceLine />
         <ul className='w-full flex flex-col items-start justify-between ml-4 tablet:ml-6'>
           <ExperienceDetails
+            position="Full-Stack Developer"
+            company="Freelancer"
+            time="2023"
+            address="Remote"
+            work="As a freelancer, i am having the opportunity to work on a variety of exciting projects, collaborating with clients from around the world, to deliver high-quality web development solutions."
+          />
+          <ExperienceDetails
             position="Junior Frontend Developer (Part-time)"
             company="Arsenal Tecnologia"
             time="2022 - 2023"
-            address="Évora, Portugal · On-site"
+            address="Portugal · On-site"
             work="Arsenal is a software development company that operates in Brazil and Portugal. As a junior front-end developer, I contribute to the development of Evo, an application designed specifically for doctors to streamline patient visits. In my role, I focus on building the user interface and user experience for the new version of Evo. By utilizing my front-end development skills, I work closely with the team to create visually appealing and user-friendly designs."
           />
           <ExperienceDetails
