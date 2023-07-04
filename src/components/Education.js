@@ -5,12 +5,12 @@ import ExperienceLine from './ExperienceLine';
 
 export default function Education() {
   return (
-    <div className='mb-28 w-full'>
-      <h2 className='font-bold text-6xl desktop:text-5xl tablet:text-4xl mobile:text-3xl mb-24 tablet:mb-16 w-full text-center'>
+    <div className='w-full max-w-[1200px] mb-28'>
+      <h2 className='font-bold text-5xl desktop:text-5xl tablet:text-4xl mobile:text-3xl mb-24 tablet:mb-20 mobile:mb-14 w-full text-center'>
         Education
       </h2>
 
-      <div className='w-[75%] tablet:w-[90%] mobile:w-full mx-auto relative -translate-x-4'>
+      <div className=' text-dark/75 dark:text-light/75 mx-auto relative -translate-x-4'>
 
         <ExperienceLine />
         <ul className='w-full flex flex-col items-end justify-between ml-4 tablet:ml-6'>
