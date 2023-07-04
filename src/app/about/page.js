@@ -122,31 +122,6 @@ export default function about() {
       </div>
 
 
-
-      {/* <div className="w-full">
-        <h2 className="font-bold text-6xl desktop:text-5xl tablet:text-4xl mobile:text-3xl mt-36 desktop:mt-20 tablet:mt-16 mb-28 tablet:mb-24 mobile:mb-20 w-full text-center">Dev Skills</h2>
-        <div className="w-full h-[50vw] relative flex items-center rounded-full justify-center bg-circularLight dark:bg-circularDark desktop:bg-circularLightLg desktop:dark:bg-circularDarkLg tablet:bg-circularLightMd tablet:dark:bg-circularDarkMd mobile:bg-circularLightSm mobile:dark:bg-circularDarkSm">
-
-          <Skill name="Web" x="0" y="0" className="roundend-full w-25 h-20 tablet:w-18 tablet:h-10" />
-          <Skill name="CSS" x="-5vw" y="-10vw" />
-          <Skill name="HTML" x="10vw" y="-2vw" />
-          <Skill name="JavaScript" x="20vw" y="6vw" />
-          <Skill name="React Js" x="0vw" y="12vw" />
-          <Skill name="Git" x="-5vw" y="-18vw" />
-          <Skill name="Next Js" x="-20vw" y="-15vw" />
-          <Skill name="Tailwind CSS" x="15vw" y="-10vw" />
-          <Skill name="TypeScript" x="32vw" y="-5vw" />
-          <Skill name="Firebase" x="13vw" y="-17vw" />
-          <Skill name="Figma" x="-25vw" y="10vw" />
-          <Skill name="Web Design" x="18vw" y="18vw" />
-          <Skill name="React Native" x="-15vw" y="0vw" />
-          <Skill name="SASS" x="-30vw" y="-5vw" />
-          <Skill name="Rest API" x="-14vw" y="18vw" />
-
-        </div>
-      </div> */}
-
-
       <Experience />
       <Education />
     </main>
