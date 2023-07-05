@@ -147,31 +147,31 @@ export default function about() {
 
         <AnimatedImage
           image={Foto1}
-          className="w-1/4 rounded-lg absolute left-0 top-0 -rotate-[8deg]"
+          className=""
           x="10%"
           y={-30}
-          deg={5}
+          deg={10}
         />
         <AnimatedImage
           image={Foto2}
-          className="w-1/4 rounded-lg absolute left-0 top-0 -rotate-[15deg]"
+          className=""
           x="100%"
           y={-60}
-          deg={18}
+          deg={15}
         />
         <AnimatedImage
           image={Foto3}
-          className="w-1/4 rounded-lg absolute left-0 top-0 -rotate-[28deg]"
+          className=""
           x="200%"
           y={-100}
-          deg={25}
+          deg={20}
         />
         <AnimatedImage
           image={Foto4}
-          className="w-1/4 rounded-lg absolute left-0 top-0 -rotate-[8deg]"
+          className=""
           x="280%"
           y={-130}
-          deg={20}
+          deg={15}
         />
 
       </div>
