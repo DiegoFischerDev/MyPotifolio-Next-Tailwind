@@ -4,8 +4,11 @@ import { useRef, useState } from "react";
 import emailjs from '@emailjs/browser'  // https://www.emailjs.com/
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useRouter } from "next/navigation";
 
 export default function ContactForm() {
+
+  const router = useRouter();
 
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -34,7 +37,7 @@ export default function ContactForm() {
       from_name: name,
       message: message,
       email: email
-    }
+    } 
 
     const myPromise = new Promise((resolve, reject) => {
 
@@ -45,6 +48,9 @@ export default function ContactForm() {
         setEmail('');
         setMessage('');
         resolve();
+        setTimeout(() => {
+          router.push("/")
+        }, 3000);
 
       }, (error) => {
         reject();

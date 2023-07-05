@@ -29,7 +29,7 @@ export default function Experience() {
           />
           <ExperienceDetails
             position="Engineer Officer"
-            company="PETROBRAS BR"
+            company="PETROBRAS"
             time="2017 - 2022"
             address="Brazil"
             work="PETROBRAS is one of the largest oil exploration and production companies in the world. As first engineer officer, I was team leader and managed the services of operation and maintenance of equipment in the engine room aboard the LPG ship Jorge Amado (Transpetro). Planning, checking, and acting to ensure continuous improvements and develop more efficient problem-solving strategies. One of my main responsibilities was to always provide a safe work environment to the crew with a collaborative, flexible, respectful attitude."

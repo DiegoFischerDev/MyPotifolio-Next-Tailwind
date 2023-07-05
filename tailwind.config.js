@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         mont: ['var(--font-mont)'],
       },
+      rotate: {
+        '36': '36deg',
+      },
       colors: {
         dark: "#1b1b1b",
         light: "#efefef",
