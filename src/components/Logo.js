@@ -26,7 +26,7 @@ export default function Logo() {
         }}
       >
         DiegoFischer
-        <div className='text-sm text-dark dark:text-light font-bold'>.Dev</div>
+        <div className='text-xs text-dark dark:text-light font-bold mb-1'>.Dev</div>
       </MotionLink>
 
     </div>

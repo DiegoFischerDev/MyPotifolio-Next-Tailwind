@@ -41,7 +41,7 @@ export default function AnimatedText({ text, className }) {
   return (
     <div className="´overflow-hidden dark:text-light ${className}´">
       <motion.h1
-        className={`flex flex-wrap font-bold capitalize text-6xl desktop:text-5xl tablet:text-4xl mobile:text-4xl ${className}`}
+        className={`flex flex-wrap font-bold capitalize text-6xl desktop:text-5xl tablet:text-4xl mobile:text-4xl pointer-events-none select-none ${className}`}
         variants={quote}
         initial="initial"
         animate="animate"

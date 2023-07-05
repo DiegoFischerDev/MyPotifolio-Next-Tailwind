@@ -43,7 +43,7 @@ export default function HamburguerMenu() {
 
           <nav className='flex items-center justify-between w-56'>
             <Link href="https://api.whatsapp.com/send?phone=351927398547&text=Hi%20Diego!%20I%20found%20your%20contact%20on%20your%20website" target={"_blank"} ><WhatsappIcon /></Link>
-            <Link href="https://instagram.com/diegooo.dev?igshid=OGQ5ZDc2ODk2ZA==" target={"_blank"} ><InstagramIcon /></Link>
+            <Link href="https://www.instagram.com/diegofischer.dev/" target={"_blank"} ><InstagramIcon /></Link>
             <Link href="https://github.com/DiegoFischerDev" target={"_blank"} ><GithubIcon /></Link>
             <Link href="https://www.linkedin.com/in/diego-fischer-dev/" target={"_blank"} ><LinkedInIcon className="mr-4" /></Link>
 
