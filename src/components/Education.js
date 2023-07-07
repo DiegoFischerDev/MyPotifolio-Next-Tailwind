@@ -6,7 +6,7 @@ import ExperienceLine from './ExperienceLine';
 export default function Education() {
   return (
     <div className='w-full max-w-[1200px] mb-28'>
-      <h2 className='font-bold text-5xl desktop:text-5xl tablet:text-4xl mobile:text-3xl mb-24 tablet:mb-20 mobile:mb-14 w-full text-center'>
+      <h2 className='font-bold text-5xl desktop:text-5xl tablet:text-4xl mobile:text-3xl mb-24 tablet:mb-20 mobile:mb-14 w-full text-center text-dark/75 dark:text-light/75'>
         Education
       </h2>
 
