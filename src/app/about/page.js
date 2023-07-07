@@ -109,6 +109,7 @@ export default function about() {
           className=""
           x="10%"
           y={-20}
+          z={10}
           deg="15"
         />
         <AnimatedImage
@@ -116,6 +117,7 @@ export default function about() {
           className=""
           x="90%"
           y={-60}
+          z={20}
           deg="30"
         />
         <AnimatedImage
@@ -123,6 +125,7 @@ export default function about() {
           className=""
           x="180%"
           y={-80}
+          z={30}
           deg="15"
         />
         <AnimatedImage
@@ -130,6 +133,7 @@ export default function about() {
           className=""
           x="270%"
           y={-120}
+          z={40}
           deg="30"
         />
 
