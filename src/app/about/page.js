@@ -1,23 +1,18 @@
 import AnimatedText from '@/components/AnimatedText';
 import Image from 'next/image';
-import React from 'react';
 import profileImg from "../../../public/images/about-pic.png"
-import Skill from '@/components/Skill';
 import Experience from '@/components/Experience';
 import Education from '@/components/Education';
 import TransitionEffect from '@/components/TransitionEffect';
 import { JavascriptIcon, LinkArrow, NextIcon, ReactIcon } from '@/components/Icons';
 import Link from 'next/link';
-import Foto1 from '../../../public/images/Foto1.jpg'
-import Foto2 from '../../../public/images/Foto2.jpg'
-import Foto3 from '../../../public/images/Foto3.jpg'
-import Foto4 from '../../../public/images/Foto4.jpg'
-import AnimatedImage from '@/components/AnimatedImage';
 import DevSkills from '@/components/DevSkills';
+import AboutImages from '@/components/AboutImages';
 
 export const metadata = {
   title: 'About'
 }
+
 
 export default function about() {
 
@@ -101,43 +96,7 @@ export default function about() {
       <DevSkills />
       <Experience />
       <Education />
-
-      <div className='mb-24 tablet:mb-0 flex w-[90%] h-[300px] tablet:h-[250px] mobile:h-[180px] max-w-[1000px] justify-evenly relative group'>
-
-        <AnimatedImage
-          image={Foto1}
-          className=""
-          x="10%"
-          y={-20}
-          z={10}
-          deg="15"
-        />
-        <AnimatedImage
-          image={Foto2}
-          className=""
-          x="90%"
-          y={-60}
-          z={20}
-          deg="30"
-        />
-        <AnimatedImage
-          image={Foto3}
-          className=""
-          x="180%"
-          y={-80}
-          z={30}
-          deg="15"
-        />
-        <AnimatedImage
-          image={Foto4}
-          className=""
-          x="270%"
-          y={-120}
-          z={40}
-          deg="30"
-        />
-
-      </div>
+      <AboutImages />
 
       <div>
 
