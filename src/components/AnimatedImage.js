@@ -12,7 +12,7 @@ export default function AnimatedImage({ image, x, y, z, deg, className }) {
   return (
     <>
       <motion.div
-        className={`w-1/4 tablet:hover:w-[90vw] z-${z} hover:z-50 rounded-lg absolute left-0 top-0 ${className}`}
+        className={`w-1/4 z-${z} hover:z-50 rounded-lg absolute left-0 top-0 ${className}`}
         initial={{ x: 0, y: 0 }}
         whileInView={{ x: x, y: y }}
         transition={{ duration: 1 }}
