@@ -26,10 +26,11 @@ export default function Home() {
 
         <div className="w-1/2 flex flex-col items-center text-left tablet:w-full">
           <AnimatedText text="Turning Vision Into Reality With Code And Design." className="text-left tablet:hidden" />
-          <p className="my-6 mr-6 text-base font-medium">
-            Welcome to my personal portfolio page! I am a <span className='text-primary dark:text-primaryDark font-semibold'>Front-end Developer</span> with a passion for creating testable and scalable applications from end-to-end.
+          <p className="text-start w-full mb-2 mt-8 text-base font-medium">
+            Welcome to my personal portfolio page!
           </p>
-          <p className="text-start w-full mb-6 text-base font-medium">Explore my latest projects showcasing my expertise in web development.</p>
+          <p className="text-start w-full mb-2 text-base font-medium">I am a <span className='text-primary dark:text-primaryDark font-semibold'>Front-end Developer</span> with a passion for creating testable and scalable applications from end-to-end.</p>
+          <p className="text-start w-full mb-8 text-base font-medium">Explore my latest projects showcasing my expertise in web development.</p>
           <div className="flex w-full items-center justify-start">
             <div className="self-start tablet:self-center">
               <Link href="/about"

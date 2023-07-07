@@ -149,29 +149,29 @@ export default function about() {
           image={Foto1}
           className=""
           x="10%"
-          y={-30}
-          deg={10}
+          y={-20}
+          deg="15"
         />
         <AnimatedImage
           image={Foto2}
           className=""
-          x="100%"
+          x="90%"
           y={-60}
-          deg={15}
+          deg="30"
         />
         <AnimatedImage
           image={Foto3}
           className=""
-          x="200%"
-          y={-100}
-          deg={20}
+          x="180%"
+          y={-80}
+          deg="15"
         />
         <AnimatedImage
           image={Foto4}
           className=""
-          x="280%"
-          y={-130}
-          deg={15}
+          x="270%"
+          y={-120}
+          deg="30"
         />
 
       </div>
