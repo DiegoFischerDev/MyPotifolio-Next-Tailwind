@@ -22,7 +22,8 @@ export default function AnimatedImage({ image, x, y, z, deg, className, setImage
           className={`-rotate-[${deg}deg] opacity-70 hover:opacity-100 hover:-rotate-0 grayscale-[100%] hover:grayscale-[30%] hover:scale-150 tablet:hover:scale-100
            hover:border-2 border-primary dark:border-primaryDark rounded-2xl mobile:rounded-md transition-all duration-500 hover:z-40`}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          onClick={()=>{setImageOpen(true); setImage(image);}}
+          onMouseEnter={()=>{setImageOpen(true); setImage(image);}}
+          onMouseLeave={()=>{setImageOpen(false);}}
         />
       </motion.div>
     </>

@@ -40,7 +40,7 @@ export default function AboutImages() {
       <AnimatedImage
         image={Foto2}
         className=""
-        x="90%"
+        x="100%"
         y={-60}
         z={20}
         deg="30"
@@ -50,7 +50,7 @@ export default function AboutImages() {
       <AnimatedImage
         image={Foto3}
         className=""
-        x="180%"
+        x="190%"
         y={-80}
         z={30}
         deg="15"
@@ -60,7 +60,7 @@ export default function AboutImages() {
       <AnimatedImage
         image={Foto4}
         className=""
-        x="270%"
+        x="280%"
         y={-120}
         z={40}
         deg="30"
