@@ -1,34 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Diego Fischer's Web Development Portfolio
 
-## Getting Started
+Visite the page: https://DiegoFischer.dev
 
-First, run the development server:
+![TreinaRecife WebPage Screenshot](https://res.cloudinary.com/di9oiqvom/image/upload/v1688833316/screencapture-diegofischer-dev-2023-07-08-17_19_44_stie6x.png)
+![TreinaRecife WebPage Screenshot](https://res.cloudinary.com/di9oiqvom/image/upload/v1688833317/screencapture-diegofischer-dev-about-2023-07-08-17_19_57_neat9k.png)
+![TreinaRecife WebPage Screenshot](https://res.cloudinary.com/di9oiqvom/image/upload/v1688833316/screencapture-diegofischer-dev-contact-2023-07-08-17_20_14_ydr0fi.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Description
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This project is a webpage designed to showcase Diego Fischer's journey in his career transition to programming and highlight his projects. The portfolio website has been created using Next.js and Tailwind CSS, two powerful tools for building modern and responsive web applications.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- **Responsive Design**: The portfolio is designed to be accessible and visually appealing on various devices and screen sizes, ensuring a seamless user experience.
+- **Project Showcase**: Diego's portfolio showcases a selection of his notable projects, providing brief descriptions, screenshots, and links to live demos or repositories.
+- **Career Journey**: The webpage presents Diego's transition into the programming field, including relevant experiences, skills acquired, and any significant milestones along the way.
+- **Direct Contact Page**: The portfolio includes a dedicated contact page, allowing visitors to get in touch with Diego directly for inquiries, collaborations, or any other professional opportunities.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Next.js**: Next.js is a powerful React framework for building server-side rendered and static websites. It provides an intuitive development experience and excellent performance out of the box.
+- **Tailwind CSS**: Tailwind CSS is a utility-first CSS framework that offers a highly customizable and low-level CSS foundation. It allows for rapid development by providing pre-defined classes for common styles and components.
+- **JavaScript/React**: The portfolio website is built using JavaScript and leverages the React library for building interactive user interfaces and managing application state.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Setup Instructions
 
-## Deploy on Vercel
+To set up the project locally, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository: `git clone https://github.com/DiegoFischerDev/potifolio-next.git`
+2. Install the dependencies: `npm install` or `yarn install`
+3. Start the development server: `npm run dev` or `yarn dev`
+4. Open your web browser and visit `http://localhost:3000` to view the portfolio locally.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Usage
+
+Once the project is running in your browser, you can navigate through the different sections using the navigation menu.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Contact
+
+For more information or inquiries about the project, please contact the developer:
+
+- Name: Diego Fischer
+- Email: hello@diegofischer.dev
+- GitHub: [github.com/DiegoFischerDev](https://github.com/DiegoFischerDev)
+
+Feel free to reach out with any questions or feedback.
+
