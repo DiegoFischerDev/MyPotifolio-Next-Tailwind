@@ -16,8 +16,8 @@ export default function Experience() {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4 tablet:ml-6'>
           <ExperienceDetails
-            position="Software Developer"
-            company="Freelancer"
+            position="Freelance Software Developer"
+            company="Workana"
             time="2023"
             address="Remote"
             work="As a freelancer, i am having the opportunity to work on a variety of exciting projects, collaborating with clients from around the world, to deliver high-quality web development solutions."

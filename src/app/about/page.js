@@ -60,7 +60,7 @@ export default function about() {
             I am currently studying for a degree in software development and working as a part-time developer at Arsenal Tecnologia in <span className='text-primary dark:text-primaryDark'>Portugal</span>.
           </p>
           <p className='font-medium mb-3'>
-            I also undertake freelance projects, ranging from website creation to developing software for internal company use and mobile applications.
+            I also do freelance projects, ranging from creating websites and mobile apps to developing systems for internal company use.
           </p>
           <p className='font-medium mb-6'>
             My current goal is to join a team where I can learn and contribute as a full-time <span className='text-primary dark:text-primaryDark'>Front-end Developer</span>.

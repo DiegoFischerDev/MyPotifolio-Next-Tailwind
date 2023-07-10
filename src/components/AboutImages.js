@@ -21,7 +21,7 @@ export default function AboutImages() {
           src={image}
           alt='Diego Fischer Image'
           priority={true}
-          className={`hidden tablet:inline absolute z-40 -top-[70vh] w-[90vw] h-[60vh] border-2 border-primary dark:border-primaryDark rounded-2xl grayscale-[30%]`}
+          className={`hidden tablet:inline absolute z-40 -top-[70vh] w-[90vw] h-[60vh]  rounded-2xl grayscale-[30%]`}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           onClick={() => { setImageOpen(false) }}
         />
