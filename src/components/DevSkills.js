@@ -30,14 +30,6 @@ export default function DevSkills() {
         </p>
       </article>
 
-      <article>
-        <h2 className='mb-4 mt-12 text-lg font-bold uppercase '>Back-End Solutions</h2>
-
-        <p className='font-medium mb-6'>
-          For the back-end of my applications, I rely on <span className='text-primary dark:text-primaryDark'>Firebase</span>, a content management system (CMS) provided by Google, as a backend-as-a-service, allowing me to securely store data and provide user registration and authentication features. It works seamlessly for small-scale projects.
-        </p>
-      </article>
-
       <atticle>
         <h2 className='mb-4 mt-12 text-lg font-bold uppercase '>organisation and control</h2>
 
@@ -46,11 +38,19 @@ export default function DevSkills() {
         </p>
       </atticle>
 
+      <atticle>
+        <h2 className='mb-4 mt-12 text-lg font-bold uppercase '>Advanced skills</h2>
+
+        <p className='font-medium mb-6'>
+        In my latest works, I have been utilizing <span className='text-primary dark:text-primaryDark'>TypeScript</span> and <span className='text-primary dark:text-primaryDark'>Redux</span>. These powerful technologies have enabled me to build robust applications, leveraging the benefits of static typing and state management.
+        </p>
+      </atticle>
+
       <article>
         <h2 className='mb-4 mt-12 text-lg font-bold uppercase '>Continuous Learning and Growth</h2>
 
         <p className='font-medium mb-6'>
-          I am always dedicated to staying up-to-date and keeping an eye on emerging technologies. Currently, I am focused on studying <span className='text-primary dark:text-primaryDark'>TypeScript</span> and implementing <span className='text-primary dark:text-primaryDark'>Unit Testing</span>, both of which are essential for professional application scalability and maintenance. In the future, I plan to expand my knowledge by studying <span className='text-primary dark:text-primaryDark'>Node JS</span> and developing backend skills. As a firm believer in lifelong learning, I am committed to continuously improving my skills and knowledge.
+          I am always dedicated to staying up-to-date and keeping an eye on emerging technologies. Currently, I am focused on studying <span className='text-primary dark:text-primaryDark'>Unit Testing</span>, which is essential for professional application scalability and maintenance. In the future, I plan to expand my knowledge by studying <span className='text-primary dark:text-primaryDark'>Node JS</span> and developing backend skills. As a firm believer in lifelong learning, I am committed to continuously improving my skills and knowledge.
         </p>
       </article>
     </div>

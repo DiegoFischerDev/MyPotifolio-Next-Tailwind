@@ -54,16 +54,10 @@ export default function about() {
             Hello, how you doing?
           </p>
           <p className='font-medium mb-3'>
-            My name is <span className='text-primary dark:text-primaryDark'>Diego Fischer</span>, I am a Web Developer with expertise in Front-End Technologies.
-          </p>
-          <p className='font-medium mb-3'>
-            I am currently studying for a degree in software development and working as a part-time developer at Arsenal Tecnologia in <span className='text-primary dark:text-primaryDark'>Portugal</span>.
-          </p>
-          <p className='font-medium mb-3'>
-            I also do freelance projects, ranging from creating websites and mobile apps to developing systems for internal company use.
+            My name is <span className='text-primary dark:text-primaryDark'>Diego Fischer</span>, I am a Web Developer with expertise in Front-End Technologies. I am currently working as a contracted developer at Arsenal Tecnologia in <span className='text-primary dark:text-primaryDark'>Portugal</span>.
           </p>
           <p className='font-medium mb-6'>
-            My current goal is to join a team where I can learn and contribute as a full-time <span className='text-primary dark:text-primaryDark'>Front-end Developer</span>.
+            I also do freelance projects, ranging from creating websites and mobile apps to developing systems for internal company use. My current goal is to join a team where I can learn and contribute as a full-time <span className='text-primary dark:text-primaryDark'>Front-end Developer</span>.
           </p>
 
 

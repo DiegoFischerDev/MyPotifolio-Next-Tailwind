@@ -16,18 +16,25 @@ export default function Experience() {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4 tablet:ml-6'>
           <ExperienceDetails
-            position="Freelance Software Developer"
-            company="Workana"
+            position="Front-end | Sleeker - Web Application (React)"
+            company="Arsenal Tecnologia"
             time="2023"
-            address="Remote"
-            work="As a freelancer, i am having the opportunity to work on a variety of exciting projects, collaborating with clients from around the world, to deliver high-quality web development solutions."
+            address="Portugal · On-site"
+            work="Following the release of the new Sleeker app built with React Native, I was given the opportunity to contribute to the web version by implementing new features. I played a key role in restructuring the search functionality and enhancing the post editing screen for web mobile devices. As a result of my work, which effectively reduced support tickets, I received recognition for my contributions."
           />
           <ExperienceDetails
-            position="Junior Frontend Developer (Part-time)"
+            position="Front-end | Sleeker - IOS / Android Application (React Native)"
+            company="Arsenal Tecnologia"
+            time="2023"
+            address="Portugal · On-site"
+            work="Sleeker is a marketing platform catering to nutritionists and personal trainers, with a large customer base. As part of the team, I was entrusted with the development of crucial components for their new app, including search and visualisation screens for posts, stories, reels, and ebooks. Additionally, I contributed to the implementation of support and payment screens."
+          />
+          <ExperienceDetails
+            position="Front-end | Evo - Web Application (React)"
             company="Arsenal Tecnologia"
             time="2022 - 2023"
-            address="Portugal · On-site"
-            work="Arsenal is a software development company that operates in Brazil and Portugal. As a junior front-end developer, I contribute to the development of Evo, an application designed specifically for doctors to streamline patient visits. In my role, I focus on building the user interface and user experience for the new version of Evo. By utilizing my front-end development skills, I work closely with the team to create visually appealing and user-friendly designs."
+            address="Brazil · On-site"
+            work="During my time at Arsenal Tecnologia, I worked on the development of the front-end for Evo, an application designed for physicians to track patient progress during hospitalisation and manage invoices for health insurances. Taking on the responsibility of designing and developing the entire app with minimal supervision, I was able to apply the knowledge I gained during a year of studying to a real project with actual stakeholders."
           />
           <ExperienceDetails
             position="Engineer Officer"

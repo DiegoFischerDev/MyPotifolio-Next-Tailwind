@@ -1,5 +1,4 @@
 import AnimatedText from '@/components/AnimatedText';
-import projectImage from '../../../public/images/projectImage.jpg'
 import { ProjectCard, ProjectCardSmall } from '@/components/ProjectCards';
 import TransitionEffect from '@/components/TransitionEffect';
 
@@ -27,7 +26,7 @@ export default function projects() {
             link="/"
             type="Featured Project"
             github="/"
-            img={projectImage}
+            img={}
           />
         </div>
 
@@ -38,7 +37,7 @@ export default function projects() {
             link="/"
             type="Featured Project"
             github="/"
-            img={projectImage}
+            img={}
           />
         </div>
 
@@ -49,7 +48,7 @@ export default function projects() {
             link="/"
             type="Featured Project"
             github="/"
-            img={projectImage}
+            img={}
           />
         </div>
 
