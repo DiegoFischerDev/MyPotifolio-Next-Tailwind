@@ -18,7 +18,7 @@ export default function DevSkills() {
         <h2 className='mb-4 mt-12 text-lg font-bold uppercase '>Front-End Libraries</h2>
 
         <p className='font-medium mb-6'>
-          On the front-end, I have a preference for <span className='text-primary dark:text-primaryDark'>Next JS</span>. Its ease of use in creating routes (similar to PHP), fast page load times, and excellent SEO performance make it my framework of choice. Additionally, I feel very comfortable working with <span className='text-primary dark:text-primaryDark'>React JS</span>. With <span className='text-primary dark:text-primaryDark'>React Native</span>, I can develop beautiful native mobile applications for both Android and iOS, ensuring compliance with the requirements of Google Play and the Apple Store.
+          On the front-end, I have a preference for <span className='text-primary dark:text-primaryDark'>Next.js</span>. Its ease of use in creating routes (similar to PHP), fast page load times, and excellent SEO performance make it my framework of choice. Additionally, I feel very comfortable working with <span className='text-primary dark:text-primaryDark'>React.js</span>. With <span className='text-primary dark:text-primaryDark'>React Native</span>, I can develop beautiful native mobile applications for both Android and iOS, ensuring compliance with the requirements of Google Play and the Apple Store.
         </p>
       </article>
 
