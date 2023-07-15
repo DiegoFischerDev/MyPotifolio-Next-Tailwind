@@ -7,7 +7,7 @@ export default function HireMe() {
     <div className="w-40 h-auto flex items-center justify-center relative tablet:w-28 mobile:w-20">
       <CircularText className="fill-dark dark:fill-light animate-[spin_12s_linear_infinite]"/>
       <Link href="/contact"
-      className="flex items-center justify-center absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-semibold bg-primary/30 dark:bg-primaryDark/50 text-dark dark:text-light hover:bg-light dark:hover:bg-dark hover:text-dark dark:hover:text-light shadow-lg border-solid border-dark dark:border-light  border-2 w-24 h-24 tablet:w-16 mobile:w-12 tablet:h-16 mobile:h-12 tablet:text-xs mobile:text-[0.5rem] rounded-full"
+      className="animate-pulse flex items-center justify-center absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 font-semibold bg-primary/30 dark:bg-primaryDark/50 text-dark dark:text-light hover:bg-light dark:hover:bg-dark hover:text-dark dark:hover:text-light shadow-lg border-solid border-dark dark:border-light  border-2 w-24 h-24 tablet:w-16 mobile:w-12 tablet:h-16 mobile:h-12 tablet:text-xs mobile:text-[0.5rem] rounded-full"
       >Hire Me</Link>
     </div>
    </div>

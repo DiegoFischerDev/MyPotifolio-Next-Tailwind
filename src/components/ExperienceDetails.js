@@ -18,8 +18,8 @@ export default function ExperienceDetails ({position, company, time, address, wo
         viewport={{once: true}}
       >
         <h3 className='capitalize font-bold text-2xl tablet:text-xl'>{position}</h3>
-        <h2 className='text-primary dark:text-primaryDark text-lg tablet:text-sm'>@{company}</h2>
-        <span className='capitalize font-medium text-dark/75 dark:text-light/75'>
+        <h2 className='text-primary dark:text-primaryDark text-base tablet:text-sm'>@{company}</h2>
+        <span className='capitalize text-base font-medium text-dark/75 dark:text-light/75'>
           {time} | {address}
         </span>
         <p className='my-2 mobile:text-xs font-medium w-full'>

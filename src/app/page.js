@@ -29,7 +29,7 @@ export default function Home() {
           <p className="text-start w-full mb-2 mt-8 text-base font-medium">
             Welcome to my personal portfolio page!
           </p>
-          <p className="text-start w-full mb-2 text-base font-medium">I am a <span className='text-primary dark:text-primaryDark font-semibold'>Front-end Developer</span> with a passion for creating testable and scalable applications from end-to-end.</p>
+          <p className="text-start w-full mb-2 text-base font-medium">I am a <span className='text-primary dark:text-primaryDark font-semibold'>Front-end Developer</span> with a passion for creating testable and scalable applications.</p>
           <p className="text-start w-full mb-8 text-base font-medium">Explore my latest projects showcasing my expertise in web development.</p>
           <div className="flex w-full items-center justify-start">
             <div className="self-start tablet:self-center">
