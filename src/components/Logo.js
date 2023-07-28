@@ -27,11 +27,6 @@ export default function Logo() {
           transition: { duration: 1, repeat: Infinity },
         }}
       >
-        <Image
-        src={lightBulb}
-        alt="LightBulb"
-        className='h-10 mobile:h-8 mobile:mx-2'
-        />
         DiegoFischer
         <div className='text-xs text-dark dark:text-light font-bold mb-1'>.Dev</div>
       </MotionLink>
