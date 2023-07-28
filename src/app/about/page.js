@@ -33,7 +33,7 @@ export default function about() {
 
             <Image src={profileImg}
               alt='Diego Fischer Image'
-              className='profileAnimate absolute top-0 left-0'
+              className='profileAnimate bg-orange-400 dark:bg-primaryDark absolute top-0 left-0'
               priority={true}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
@@ -46,11 +46,11 @@ export default function about() {
             />
 
             <div className='w-full flex items-center justify-between flex-wrap'>
-              <NextIcon className="w-[18%] dark:fill-[#909090] fill-black/75 animate-pulseOne absolute top-20 right-10 z-10" />
-              <div className='dark:bg-[#909090] bg-black/75 rounded animate-pulseTwo absolute top-40 left-10 -z-10'>
-                <ReactIcon className="w-32 tablet:w-36 mobile:w-20 dark:fill-dark fill-[#efefef] " />
-              </div>
-              <JavascriptIcon className="w-[18%] dark:fill-[#909090] fill-black/75 animate-pulseThree absolute top-14 left-28 -z-10" />
+              <NextIcon className="w-[18%] dark:fill-[#d4d4d4] fill-black/75 animate-pulseOne absolute top-20 right-10 z-10" />
+              <div className='dark:bg-[#d4d4d4] bg-black/75 rounded animate-pulseTwo absolute top-40 left-5 z-10'>
+              <ReactIcon className="w-24 tablet:w-36 mobile:w-20 dark:fill-primaryDark fill-orange-400 " />
+            </div>
+              <JavascriptIcon className="w-[18%] dark:fill-[#d4d4d4] fill-black/75 animate-pulseThree absolute top-14 left-24 z-10" />
             </div>
           </div>
 
@@ -78,7 +78,7 @@ export default function about() {
 
           <Image src={profileImg}
             alt='Diego Fischer Image'
-            className='profileAnimate absolute top-0 left-0'
+            className='profileAnimate bg-orange-400 dark:bg-primaryDark absolute top-0 left-0'
             priority={true}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
@@ -91,11 +91,11 @@ export default function about() {
           />
 
           <div className='w-full flex items-center justify-between flex-wrap'>
-            <NextIcon className="w-[18%] dark:fill-[#909090] fill-black/75 animate-pulseOne absolute top-28 right-10 z-10" />
-            <div className='dark:bg-[#909090] bg-black/75 rounded animate-pulseTwo absolute top-40 left-10 -z-10'>
-              <ReactIcon className="w-32 tablet:w-36 mobile:w-20 dark:fill-dark fill-[#efefef] " />
+            <NextIcon className="w-[18%] dark:fill-[#d4d4d4] fill-black/75 animate-pulseOne absolute top-28 right-10 z-10" />
+            <div className='dark:bg-[#d4d4d4] bg-black/75 rounded animate-pulseTwo absolute top-40 left-10 z-10'>
+              <ReactIcon className="w-24 tablet:w-36 mobile:w-20 dark:fill-primaryDark fill-orange-400 " />
             </div>
-            <JavascriptIcon className="w-[18%] dark:fill-[#909090] fill-black/75 animate-pulseThree absolute top-0 left-28 z-10" />
+            <JavascriptIcon className="w-[18%] dark:fill-[#d4d4d4] fill-black/75 animate-pulseThree absolute top-0 left-28 z-10" />
           </div>
         </div>
 
