@@ -13,12 +13,6 @@ module.exports = {
       rotate: {
         '36': '36deg',
       },
-      keyframes: {
-        profileAnimate: {
-          '0%, 100%': { transform: 'rounded-[30%]' },
-          '50%': { transform: 'rounded-[80%]' },
-        },
-      },
       colors: {
         dark: "#1b1b1b",
         light: "#efefef",
