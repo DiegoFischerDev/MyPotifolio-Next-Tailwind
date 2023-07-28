@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .profileAnimate {
-  box-shadow: inset 0 0 0 9px rgba(255, 255, 255, 0.811);
+  box-shadow: inset 0 0 0 9px #c8c8c8;
   animation: profile_animate 8s ease-in-out infinite;
 }
 
