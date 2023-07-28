@@ -1,6 +1,7 @@
 import AnimatedText from '@/components/AnimatedText';
 import Image from 'next/image';
 import profileImg from "../../../public/images/about-pic.png"
+import profileImg2 from "../../../public/images/about-pic2.png"
 import Experience from '@/components/Experience';
 import Education from '@/components/Education';
 import TransitionEffect from '@/components/TransitionEffect';
@@ -26,31 +27,39 @@ export default function about() {
 
       <div className='flex items-center w-full max-w-[1200px] desktop:flex-col mb-10'>
 
-        <article className='w-full h-[100%] mr-5 tablet:mr-0 flex flex-col text-dark/75 dark:text-light/75 max-w-[900px]'>
+        <article className='w-full h-[100%] mr-5 tablet:mr-0 flex flex-col justify-center items-center text-dark/75 dark:text-light/75 max-w-[900px]'>
 
-          <div className='desktop:inline hidden grayscale-[30%] max-w-[500px] h-auto mr-10 desktop:mr-0 desktop:flex-col desktop:mb-10 relative profileAnimate'>
+          <div className='desktop:inline hidden grayscale-[30%] mr-10 desktop:mr-0 desktop:flex-col desktop:mb-10 relative w-[350px] h-[380px]'>
+
             <Image src={profileImg}
               alt='Diego Fischer Image'
-              className='profileAnimate top-0 left-0'
+              className='profileAnimate absolute top-0 left-0'
+              priority={true}
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+
+            <Image src={profileImg2}
+              alt='Diego Fischer Image'
+              className='absolute top-0 left-0'
               priority={true}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
 
             <div className='w-full flex items-center justify-between flex-wrap'>
-              <NextIcon className="w-[18%] dark:fill-[#909090] fill-black/75 animate-pulseOne absolute top-28 right-10 z-10" />
-              <div className='dark:bg-[#909090] bg-black/75 rounded animate-pulseTwo absolute top-40 left-10 z-10'>
+              <NextIcon className="w-[18%] dark:fill-[#909090] fill-black/75 animate-pulseOne absolute top-20 right-10 z-10" />
+              <div className='dark:bg-[#909090] bg-black/75 rounded animate-pulseTwo absolute top-40 left-10 -z-10'>
                 <ReactIcon className="w-32 tablet:w-36 mobile:w-20 dark:fill-dark fill-[#efefef] " />
               </div>
-              <JavascriptIcon className="w-[18%] dark:fill-[#909090] fill-black/75 animate-pulseThree absolute top-0 left-28 z-10" />
+              <JavascriptIcon className="w-[18%] dark:fill-[#909090] fill-black/75 animate-pulseThree absolute top-14 left-28 -z-10" />
             </div>
           </div>
 
-          <h2 className='mb-4 text-lg font-bold uppercase '>About me</h2>
+          <h2 className='mb-4 text-lg font-bold uppercase w-[100%]'>About me</h2>
 
-          <p className='font-medium mb-3'>
+          <p className='font-medium mb-3 w-[100%]'>
             Hello, how you doing?
           </p>
-          <p className='font-medium mb-3'>
+          <p className='font-medium mb-3 w-[100%]'>
             My name is <span className='text-primary dark:text-primaryDark'>Diego Fischer</span>, I am a Web Developer with expertise in Front-End Technologies. I am currently working as a contracted developer at Arsenal Tecnologia in <span className='text-primary dark:text-primaryDark'>Portugal</span>.
           </p>
           <p className='font-medium mb-6'>
@@ -65,17 +74,25 @@ export default function about() {
 
         </article>
 
-        <div className='desktop:hidden grayscale-[30%] max-w-[500px] h-auto mr-10 desktop:mr-0 desktop:flex-col desktop:mb-10 relative profileAnimate'>
+        <div className='desktop:hidden grayscale-[30%] mr-10 desktop:mr-0 desktop:flex-col desktop:mb-10 relative w-[800px] h-[500px]'>
+
           <Image src={profileImg}
             alt='Diego Fischer Image'
-            className='profileAnimate top-0 left-0'
+            className='profileAnimate absolute top-0 left-0'
+            priority={true}
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          />
+
+          <Image src={profileImg2}
+            alt='Diego Fischer Image'
+            className='absolute top-0 left-0'
             priority={true}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
 
           <div className='w-full flex items-center justify-between flex-wrap'>
             <NextIcon className="w-[18%] dark:fill-[#909090] fill-black/75 animate-pulseOne absolute top-28 right-10 z-10" />
-            <div className='dark:bg-[#909090] bg-black/75 rounded animate-pulseTwo absolute top-40 left-10 z-10'>
+            <div className='dark:bg-[#909090] bg-black/75 rounded animate-pulseTwo absolute top-40 left-10 -z-10'>
               <ReactIcon className="w-32 tablet:w-36 mobile:w-20 dark:fill-dark fill-[#efefef] " />
             </div>
             <JavascriptIcon className="w-[18%] dark:fill-[#909090] fill-black/75 animate-pulseThree absolute top-0 left-28 z-10" />
