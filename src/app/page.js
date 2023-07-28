@@ -31,7 +31,8 @@ export default function Home() {
           </p>
           <p className="text-start w-full mb-2 text-base font-medium">I am a <span className='text-primary dark:text-primaryDark font-semibold'>Front-end Developer</span> with a passion for creating testable and scalable applications.</p>
           <p className="text-start w-full mb-8 text-base font-medium">Explore my latest projects showcasing my expertise in web development.</p>
-          <div className="flex w-full items-center justify-start">
+
+          <div className="flex w-full items-center justify-start mobile:justify-center">
             <div className="self-start tablet:self-center">
               <Link href="/about"
                 className="flex mb-4 items-center bg-dark text-light p-2.5 px-6 tablet:px-4 mobile:px-2 tablet:text-base mobile:text-base rounded-lg font-semibold border-2 border-solid border-transparent hover:bg-light hover:text-dark hover:border-dark dark:bg-light dark:text-dark dark:hover:bg-dark dark:hover:text-light dark:hover:border-light">ABOUT</Link>

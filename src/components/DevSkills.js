@@ -50,7 +50,7 @@ export default function DevSkills() {
         <h2 className='mb-4 mt-12 text-lg font-bold uppercase '>Continuous Learning and Growth</h2>
 
         <p className='font-medium mb-6'>
-          I am always dedicated to staying up-to-date and keeping an eye on emerging technologies. Currently, I am focused on studying <span className='text-primary dark:text-primaryDark'>Unit Testing</span>, which is essential for professional application scalability and maintenance. In the future, I plan to expand my knowledge by studying <span className='text-primary dark:text-primaryDark'>Node JS</span> and developing backend skills. As a firm believer in lifelong learning, I am committed to continuously improving my skills and knowledge.
+          I am always dedicated to staying up-to-date and keeping an eye on emerging technologies. Currently, I am focused on studying <span className='text-primary dark:text-primaryDark'>Unit Testing</span>, which is essential for professional application scalability and maintenance. In the future, I plan to expand my knowledge by studying <span className='text-primary dark:text-primaryDark'>Node JS</span> and developing backend skills.
         </p>
       </article>
     </div>

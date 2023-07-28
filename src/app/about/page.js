@@ -63,7 +63,7 @@ export default function about() {
 
           <div className="self-start tablet:self-center">
             <a href="/ResumeDiegoFischer.pdf" target={"_blank"} download={true}
-              className="flex mt-6 items-center bg-dark/75 text-light p-2.5 px-6 rounded-lg font-semibold border-2 border-solid border-transparent hover:bg-light/75 hover:text-dark hover:border-dark dark:bg-light/75 dark:text-dark dark:hover:bg-dark/75 dark:hover:text-light dark:hover:border-light">Resume <LinkArrow /></a>
+              className="flex mt-6 items-center bg-dark/75 text-light p-2.5 px-6 rounded-lg font-semibold border-2 border-solid border-transparent hover:bg-light/75 hover:text-dark hover:border-dark dark:bg-light/75 dark:text-dark dark:hover:bg-dark/75 dark:hover:text-light dark:hover:border-light">Download Resume <LinkArrow className="ml-2 mb-1"/></a>
           </div>
 
         </article>
