@@ -26,21 +26,21 @@ export default function about() {
 
       <div className='flex items-center w-full max-w-[1200px] desktop:flex-col mb-10'>
 
-        <div className='hidden desktop:inline grayscale-[30%] max-w-[500px] h-auto mr-10 desktop:mr-0 desktop:flex-col desktop:mb-10 relative bg-primary/50 dark:bg-primaryDark/50 rounded-[30%] rounded-s-[70%] justify-start'>
+        <div className='hidden profileAnimate desktop:inline grayscale-[30%] max-w-[500px] h-auto mr-10 desktop:mr-0 desktop:flex-col desktop:mb-10 relative bg-primary/50 dark:bg-primaryDark/50 justify-start'>
           <Image src={profileImg}
             alt='Diego Fischer Image'
-            className='rounded-[30%] rounded-s-[70%]'
+            className='profileAnimate'
             priority={true}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
 
 
           <div className='w-full flex items-center justify-between flex-wrap'>
-            <NextIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulseThree absolute top-52 left-8 -z-10" />
-            <div className='dark:bg-light bg-black/75 rounded animate-pulseTwo absolute top-20 left-16 -z-10'>
+            <NextIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulseThree absolute top-52 left-8 z-10" />
+            <div className='dark:bg-light bg-black/75 rounded animate-pulseTwo absolute top-20 left-16 z-10'>
               <ReactIcon className="w-24 dark:fill-[#34647f] fill-[#dfa78a] " />
             </div>
-            <JavascriptIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulseOne absolute top-20 right-8 -z-10" />
+            <JavascriptIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulseOne absolute top-20 right-8 z-10" />
 
           </div>
         </div>
@@ -68,20 +68,20 @@ export default function about() {
 
         </article>
 
-        <div className='desktop:hidden grayscale-[30%] max-w-[500px] h-auto mr-10 desktop:mr-0 desktop:flex-col desktop:mb-10 relative bg-primary/50 dark:bg-primaryDark/50 rounded-[30%] rounded-s-[70%]'>
+        <div className='desktop:hidden grayscale-[30%] max-w-[500px] h-auto mr-10 desktop:mr-0 desktop:flex-col desktop:mb-10 relative bg-primary/50 dark:bg-primaryDark/50 profileAnimate'>
           <Image src={profileImg}
             alt='Diego Fischer Image'
-            className='rounded-[30%] rounded-s-[70%]'
+            className='profileAnimate top-0 left-0'
             priority={true}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
 
           <div className='w-full flex items-center justify-between flex-wrap'>
-            <NextIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulseOne absolute top-28 right-16 -z-10" />
-            <div className='dark:bg-light bg-black/75 rounded animate-pulseTwo absolute top-40 left-20 -z-10'>
+            <NextIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulseOne absolute top-28 right-10 z-10" />
+            <div className='dark:bg-light bg-black/75 rounded animate-pulseTwo absolute top-40 left-10 z-10'>
               <ReactIcon className="w-32 tablet:w-36 mobile:w-20 dark:fill-[#34647f] fill-[#dfa78a] " />
             </div>
-            <JavascriptIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulseThree absolute top-10 left-40 -z-10" />
+            <JavascriptIcon className="w-[18%] dark:fill-light fill-black/75 animate-pulseThree absolute top-0 left-28 z-10" />
           </div>
         </div>
 
